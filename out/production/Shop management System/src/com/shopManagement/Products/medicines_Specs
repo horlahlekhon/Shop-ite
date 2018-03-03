@@ -1,0 +1,33 @@
+the company class will be the will be one of the constructor parametres of the medicine , so that when new medicine is added to the stock, new company can be added also and/
+or existing company will be updated.
+there will be  a medicine class that will define the general properties of a medicine; it will be the parent class of all medicines
+, and this class will be extended by other types of medicines like
+caplets , bottles liquids , and or capped bottles of multiple capsules.
+
+MEDICINE:
+    medicine will have :
+    (1)Name
+    (2) type i.e either caplets , bottled liquids or capped bottles of multiple caplets
+    (3)class of type company that will help to identify the company that made the medicine
+    (4) each medicine will have an ID tag to identify them in the stack
+the medicine will be categorized into different categories :
+            CapLets:
+                   this type of medicines will have the following properties
+                        (1) are provided in sachets
+                        (2) are presented in twelve capsules per sachet and/or less or more in specialized sachets for some medicines
+                        (3) user can decide to buy a sachet or more or a pack
+                        (4) a pack of caplet medicine are presented in multiple sachets into one hard paper packs
+
+            Bottled_Liquids:
+                    this type of medicines will have the following properties:
+                    (1) presented in bottles
+                    (2) presented in liquid forms and are only one in the pack
+                    (3)user can only buy the pack since only one bottle is available in the pack; so no chance of buying less than a pack
+
+            capped bottles with multiple caplets:
+                        this type of medicine will have the following
+                        (1) presented in bottles
+                        (2) contains capsules or caplets that are more multiple than can be contained by sachets
+                        (3) typically contains up to 50 or 100 or moe capsules in a bottle.
+                        (4)can either be sold with the rate of each tablet by counting how many tablets to be bought; can also be sold whole
+                        for customers who want to buy the whole pack.
