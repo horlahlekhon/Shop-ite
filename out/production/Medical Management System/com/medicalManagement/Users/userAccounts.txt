@@ -1,0 +1,12 @@
+
+
+
+the user accounts will serve as a way for the users to log in into the system; each user will have a dynamique uer accounts with usernames and password
+while every user will have a user Account, there will be wo different categories of user accounts ; where , one will be the Admin user, and the other category will be
+the regular user;  the adminuser will be assigned a special name which will have a a structure like this:
+           <name>@Admin
+        this will be the differentiating parametre from regular user; even though the admin we be a type of user also , its account would not be possible to be created twice
+
+
+        qualities of the admin user:
+            cannot be created twice; at the first log on of the software the user created will be the admin

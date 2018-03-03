@@ -1,0 +1,16 @@
+.button{
+    -fx-background-color: linear-gradient(lightskyblue, #ee6844);
+}
+.mainBackground{
+    /*-fx-background-image: url(//com//medicalManagement//pic//mostfamousmenononephoto-1.jpg);*/
+    fx-background-color: linear-gradient: #805c22,#176980;
+}
+.dashBoardLogo{
+    /*fx-background-image: url(//com//medicalManagement//pic//https%3A%2F%2F36.media.tumblr.com%2F4aa9aba10d751023c88dff5bbb9dacd7%2Ftumblr_o0502o0DcY1qlvic5o7_1280.jpg );*/
+    -fx-background-color: linear-gradient(lightskyblue, #ee6844);
+}
+
+/*
+.root{
+    -fx-background-image: url(//com//medicalManagement//pic//https%3A%2F%2F36.media.tumblr.com%2F4aa9aba10d751023c88dff5bbb9dacd7%2Ftumblr_o0502o0DcY1qlvic5o7_1280.jpg ) ;
+}*/

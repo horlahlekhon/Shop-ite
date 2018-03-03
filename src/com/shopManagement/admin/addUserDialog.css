@@ -1,0 +1,13 @@
+.divisionalPane{
+-fx-background-color : 	#D3D3D3;
+background-color: 	#D3D3D3;
+
+}
+.mainPane{
+    -fx-background-color : 	#E8E8E8;
+    background-color: 	#E8E8E8;
+}
+.tcextField{
+    -fx-background-color : #F8F8F8;
+    background-color: 	#F8F8F8;
+}
