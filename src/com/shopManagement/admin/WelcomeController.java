@@ -35,12 +35,12 @@ public class WelcomeController extends AnchorPane implements Initializable{
 
 
     //////load dialog box to add new user\\\\\\
-    AddUserDialogController addUserDialogController = new AddUserDialogController();
+    AddUserDialogController addUserDialogController ;
 
 
     ////////////new User adding doalog \\\\\\\\\\\\\\\
 
-    public WelcomeController(Stage adminStage){
+    public WelcomeController(Stage newStage){
         FXMLLoader loader = new FXMLLoader(getClass().getResource("../admin/adminWelcomePageFXML.fxml"));
         loader.setRoot(this);
         loader.setController(this);
@@ -60,7 +60,12 @@ public class WelcomeController extends AnchorPane implements Initializable{
             dashBoardLoader();
         });
 
-        this.addUser.setOnAction(event -> loadAddUserDialog());
+        this.addUser.setOnAction(event -> {
+                loadAddUserDialog();
+                Stage fstage = (Stage) addUser.getScene().getWindow();
+                fstage.close();
+
+        });
 
     }
     public void dashBoardLoader(){
@@ -87,13 +92,13 @@ public class WelcomeController extends AnchorPane implements Initializable{
     @FXML
     public void loadAddUserDialog() {
         Stage addUserStage = new Stage();
+        addUserDialogController = new AddUserDialogController(addUserStage);
+
         addUserStage.initModality(APPLICATION_MODAL);
-        addUserStage.setScene(new Scene(addUserDialogController));
+        Scene scene = new Scene(addUserDialogController);
+        addUserStage.setScene(scene);
         addUserStage.setTitle("Add user Dialog");
         addUserStage.showAndWait();
-
-
-
 
     }
 

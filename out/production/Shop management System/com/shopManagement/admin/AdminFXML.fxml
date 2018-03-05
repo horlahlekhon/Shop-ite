@@ -54,7 +54,7 @@
                         <Insets bottom="40.0" left="18.0" right="7.0" top="20.0" />
                     </VBox.margin>
                 </Button>
-                <Button mnemonicParsing="false" prefHeight="28.1328125" prefWidth="189.0" text="Log Out" textAlignment="CENTER">
+                <Button fx:id="homePageButton" mnemonicParsing="false" prefHeight="28.1328125" prefWidth="189.0" text="Home " textAlignment="CENTER">
                     <VBox.margin>
                         <Insets bottom="40.0" left="18.0" right="7.0" top="30.0" />
                     </VBox.margin>

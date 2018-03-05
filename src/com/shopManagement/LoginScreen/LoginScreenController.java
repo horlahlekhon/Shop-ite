@@ -129,12 +129,6 @@ public class LoginScreenController implements Initializable {
     public void adminLogin() {
         Stage adminStage = new Stage();
             WelcomeController welcomeStage = new WelcomeController(adminStage);
-          /// Stage adminStage = new Stage();
-          //  FXMLLoader loader = new FXMLLoader();
-           // AnchorPane root = loader.load(getClass().getResource());
-
-
-
             Scene scene = new Scene(welcomeStage);
 
             adminStage.setScene(scene);

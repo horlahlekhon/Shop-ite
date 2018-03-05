@@ -9,10 +9,13 @@ import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
+import javafx.scene.Scene;
 import javafx.scene.control.*;
 import javafx.scene.control.cell.PropertyValueFactory;
 import com.gluonhq.charm.glisten.control.TextField;
+import javafx.stage.Stage;
 
 
 import java.net.URL;
@@ -45,6 +48,8 @@ public class AdminController implements Initializable {
     private TextField searchField;
     @FXML
     private Button searchButton;
+    @FXML
+    private Button homePageButton;
 
 
 
@@ -73,6 +78,7 @@ public class AdminController implements Initializable {
 
     DatabaseConnection dbConn;
     private ObservableList<Product> productsInventoryHolder;
+   WelcomeController homePage ;
 
 
     @Override
@@ -82,6 +88,11 @@ public class AdminController implements Initializable {
         this.dbConn = new DatabaseConnection();
 
         this.searchButton.setOnAction(e -> searchForProduct(e));
+
+        this.homePageButton.setOnAction((ActionEvent e) ->{
+            Stage stageToClose = (Stage) homePageButton.getScene().getWindow();
+            stageToClose.close();  //close the current Stage and
+            returnToHome();}); //load a new stage to home
     }
 
     @FXML
@@ -201,6 +212,24 @@ public class AdminController implements Initializable {
 
     }
 
+    /**
+     * this method will be the one to handle the event that pertains to returning to the home Stage from any
+     * stage......
+     *
+     */
+    public void returnToHome(){
+
+    Stage homepage = new Stage();
+    homePage = new WelcomeController(homepage);
+    //FXMLLoader loader = new FXMLLoader(getClass().getResource(""))
+
+    Scene backToHome =  new Scene(homePage);
+    homepage.setScene(backToHome);
+    homepage.setTitle("Home Page");
+    homepage.setResizable(false);
+    homepage.show();
 
 
+
+}
 }
