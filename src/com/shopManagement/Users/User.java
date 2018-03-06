@@ -2,10 +2,8 @@ package com.shopManagement.Users;
 
 
 /**
- *
- *
- *
- */
+ * @Author Olalekan Adebari nee Sisyphus
+ **/
 
 public class User {
 

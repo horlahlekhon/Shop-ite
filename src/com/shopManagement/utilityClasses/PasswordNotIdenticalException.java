@@ -1,4 +1,4 @@
-package com.utilityClasses;
+package com.shopManagement.utilityClasses;
 
 public class PasswordNotIdenticalException extends Exception {
 

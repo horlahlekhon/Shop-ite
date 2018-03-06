@@ -2,32 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="418b5844-9c36-4be0-8ef6-923094474819" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/utilityClasses/PasswordNotIdenticalException.java" />
-      <change beforePath="$PROJECT_DIR$/.idea/Shop management System.iml" afterPath="$PROJECT_DIR$/.idea/Shop management System.iml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/medicalDB.sqlite" afterPath="$PROJECT_DIR$/medicalDB.sqlite" />
-      <change beforePath="$PROJECT_DIR$/out/production/Shop management System/.idea/Shop management System.iml" afterPath="$PROJECT_DIR$/out/production/Shop management System/.idea/Shop management System.iml" />
       <change beforePath="$PROJECT_DIR$/out/production/Shop management System/.idea/workspace.xml" afterPath="$PROJECT_DIR$/out/production/Shop management System/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/out/production/Shop management System/com/shopManagement/GUI/board.fxml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Shop management System/com/shopManagement/LoginScreen/LoginScreenController.class" afterPath="$PROJECT_DIR$/out/production/Shop management System/com/shopManagement/LoginScreen/LoginScreenController.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/Shop management System/com/shopManagement/LoginScreen/UsersOptions.class" afterPath="$PROJECT_DIR$/out/production/Shop management System/com/shopManagement/LoginScreen/UsersOptions.class" />
       <change beforePath="$PROJECT_DIR$/out/production/Shop management System/com/shopManagement/admin/AddUserDialog.fxml" afterPath="$PROJECT_DIR$/out/production/Shop management System/com/shopManagement/admin/AddUserDialog.fxml" />
       <change beforePath="$PROJECT_DIR$/out/production/Shop management System/com/shopManagement/admin/AddUserDialogController.class" afterPath="$PROJECT_DIR$/out/production/Shop management System/com/shopManagement/admin/AddUserDialogController.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/Shop management System/com/shopManagement/admin/AdminController.class" afterPath="$PROJECT_DIR$/out/production/Shop management System/com/shopManagement/admin/AdminController.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/Shop management System/com/shopManagement/admin/AdminFXML.fxml" afterPath="$PROJECT_DIR$/out/production/Shop management System/com/shopManagement/admin/AdminFXML.fxml" />
       <change beforePath="$PROJECT_DIR$/out/production/Shop management System/com/shopManagement/admin/WelcomeController.class" afterPath="$PROJECT_DIR$/out/production/Shop management System/com/shopManagement/admin/WelcomeController.class" />
       <change beforePath="$PROJECT_DIR$/out/production/Shop management System/medicalDB.sqlite" afterPath="$PROJECT_DIR$/out/production/Shop management System/medicalDB.sqlite" />
-      <change beforePath="$PROJECT_DIR$/out/production/Shop management System/src/com/shopManagement/GUI/board.fxml" afterPath="" />
       <change beforePath="$PROJECT_DIR$/out/production/Shop management System/src/com/shopManagement/admin/AddUserDialog.fxml" afterPath="$PROJECT_DIR$/out/production/Shop management System/src/com/shopManagement/admin/AddUserDialog.fxml" />
-      <change beforePath="$PROJECT_DIR$/out/production/Shop management System/src/com/shopManagement/admin/AdminFXML.fxml" afterPath="$PROJECT_DIR$/out/production/Shop management System/src/com/shopManagement/admin/AdminFXML.fxml" />
-      <change beforePath="$PROJECT_DIR$/src/com/shopManagement/GUI/board.fxml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/Shop management System/utilityClasses/PasswordNotIdenticalException.class" afterPath="" />
       <change beforePath="$PROJECT_DIR$/src/com/shopManagement/LoginScreen/LoginScreenController.java" afterPath="$PROJECT_DIR$/src/com/shopManagement/LoginScreen/LoginScreenController.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/shopManagement/LoginScreen/UsersOptions.java" afterPath="$PROJECT_DIR$/src/com/shopManagement/LoginScreen/UsersOptions.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/shopManagement/Users/User.java" afterPath="$PROJECT_DIR$/src/com/shopManagement/Users/User.java" />
       <change beforePath="$PROJECT_DIR$/src/com/shopManagement/admin/AddUserDialog.fxml" afterPath="$PROJECT_DIR$/src/com/shopManagement/admin/AddUserDialog.fxml" />
       <change beforePath="$PROJECT_DIR$/src/com/shopManagement/admin/AddUserDialogController.java" afterPath="$PROJECT_DIR$/src/com/shopManagement/admin/AddUserDialogController.java" />
       <change beforePath="$PROJECT_DIR$/src/com/shopManagement/admin/AdminController.java" afterPath="$PROJECT_DIR$/src/com/shopManagement/admin/AdminController.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/shopManagement/admin/AdminFXML.fxml" afterPath="$PROJECT_DIR$/src/com/shopManagement/admin/AdminFXML.fxml" />
       <change beforePath="$PROJECT_DIR$/src/com/shopManagement/admin/WelcomeController.java" afterPath="$PROJECT_DIR$/src/com/shopManagement/admin/WelcomeController.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/utilityClasses/PasswordNotIdenticalException.java" afterPath="$PROJECT_DIR$/src/com/shopManagement/utilityClasses/PasswordNotIdenticalException.java" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -41,8 +31,8 @@
       <file leaf-file-name="AddUserDialog.fxml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/shopManagement/admin/AddUserDialog.fxml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="24" column="30" lean-forward="false" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
+            <state relative-caret-position="810">
+              <caret line="45" column="29" lean-forward="false" selection-start-line="45" selection-start-column="29" selection-end-line="45" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -54,8 +44,8 @@
       <file leaf-file-name="adminWelcomePageFXML.fxml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/shopManagement/admin/adminWelcomePageFXML.fxml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="14" column="10" lean-forward="false" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+            <state relative-caret-position="270">
+              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -67,20 +57,23 @@
       <file leaf-file-name="AddUserDialogController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/shopManagement/admin/AddUserDialogController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="558">
-              <caret line="49" column="0" lean-forward="true" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+            <state relative-caret-position="505">
+              <caret line="127" column="25" lean-forward="false" selection-start-line="127" selection-start-column="25" selection-end-line="127" selection-end-column="25" />
               <folding>
-                <element signature="docComment;method#passCheck#0;class#AddUserDialogController#0" expanded="false" />
+                <element signature="method#addUserToDB#0;class#AddUserDialogController#0" expanded="false" />
+                <element signature="method#passwordValidation#0;class#AddUserDialogController#0" expanded="false" />
+                <element signature="method#addUser#0;class#AddUserDialogController#0" expanded="false" />
+                <element signature="method#emailValidation#0;class#AddUserDialogController#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PasswordNotIdenticalException.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/utilityClasses/PasswordNotIdenticalException.java">
+      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/shopManagement/Users/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+            <state relative-caret-position="90">
+              <caret line="5" column="4" lean-forward="false" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -89,8 +82,8 @@
       <file leaf-file-name="WelcomeController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/shopManagement/admin/WelcomeController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="828">
-              <caret line="63" column="0" lean-forward="false" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+            <state relative-caret-position="72">
+              <caret line="4" column="4" lean-forward="false" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -99,11 +92,9 @@
       <file leaf-file-name="LoginScreenController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/shopManagement/LoginScreen/LoginScreenController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2034">
-              <caret line="130" column="79" lean-forward="false" selection-start-line="130" selection-start-column="79" selection-end-line="130" selection-end-column="79" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="72">
+              <caret line="4" column="4" lean-forward="false" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -111,8 +102,8 @@
       <file leaf-file-name="AdminController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/shopManagement/admin/AdminController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="16" column="51" lean-forward="false" selection-start-line="16" selection-start-column="51" selection-end-line="16" selection-end-column="51" />
+            <state relative-caret-position="108">
+              <caret line="21" column="4" lean-forward="false" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
               <folding>
                 <element signature="method#loadProductsTable#0;class#AdminController#0" expanded="false" />
                 <element signature="docComment;method#searchForProduct#0;class#AdminController#0" expanded="false" />
@@ -143,6 +134,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="FxmlFile" />
       </list>
     </option>
   </component>
@@ -157,12 +149,16 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/shopManagement/admin/AdminController.java" />
-        <option value="$PROJECT_DIR$/src/com/shopManagement/LoginScreen/LoginScreenController.java" />
-        <option value="$PROJECT_DIR$/src/com/shopManagement/admin/WelcomeController.java" />
         <option value="$PROJECT_DIR$/src/com/shopManagement/LoginScreen/UsersOptions.java" />
         <option value="$PROJECT_DIR$/src/utilityClasses/PasswordNotIdenticalException.java" />
+        <option value="$PROJECT_DIR$/src/com/newProductDialog/addProduct.fxml" />
+        <option value="$PROJECT_DIR$/src/com/newProductDialog/addProduct.java" />
+        <option value="$PROJECT_DIR$/src/com/shopManagement/admin/table-viewCSS.css" />
         <option value="$PROJECT_DIR$/src/com/shopManagement/admin/AddUserDialog.fxml" />
+        <option value="$PROJECT_DIR$/src/com/shopManagement/Users/User.java" />
+        <option value="$PROJECT_DIR$/src/com/shopManagement/admin/WelcomeController.java" />
+        <option value="$PROJECT_DIR$/src/com/shopManagement/LoginScreen/LoginScreenController.java" />
+        <option value="$PROJECT_DIR$/src/com/shopManagement/admin/AdminController.java" />
         <option value="$PROJECT_DIR$/src/com/shopManagement/admin/AddUserDialogController.java" />
       </list>
     </option>
@@ -172,8 +168,11 @@
     <option name="width" value="1600" />
     <option name="height" value="873" />
   </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
+    <navigator proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -186,35 +185,16 @@
       <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Shop management System" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Shop management System" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Shop management System" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Shop management System" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="last.edited.regexp" value="090123456" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -228,7 +208,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JAR Application.jfoenix-8.0.1.jar">
+  <component name="RunManager" selected="Application.LoginScreenMain">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -340,8 +320,8 @@
     </list>
     <recent_temporary>
       <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="JAR Application.jfoenix-8.0.1.jar" />
-        <item index="1" class="java.lang.String" itemvalue="Application.LoginScreenMain" />
+        <item index="0" class="java.lang.String" itemvalue="Application.LoginScreenMain" />
+        <item index="1" class="java.lang.String" itemvalue="JAR Application.jfoenix-8.0.1.jar" />
       </list>
     </recent_temporary>
   </component>
@@ -363,20 +343,22 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1600" height="873" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32806325" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3030303" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3030303" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -387,7 +369,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32806325" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -400,7 +381,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/com/shopManagement/admin/AdminController.java</url>
-          <line>98</line>
+          <line>102</line>
           <properties class="com.shopManagement.admin.AdminController" method="loadProductsTable">
             <option name="EMULATED" value="true" />
           </properties>
@@ -411,20 +392,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/shopManagement/admin/AdminController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="16" column="51" lean-forward="false" selection-start-line="16" selection-start-column="51" selection-end-line="16" selection-end-column="51" />
-          <folding>
-            <element signature="method#loadProductsTable#0;class#AdminController#0" expanded="false" />
-            <element signature="docComment;method#searchForProduct#0;class#AdminController#0" expanded="false" />
-            <element signature="method#searchForProduct#0;class#AdminController#0" expanded="false" />
-            <element signature="method#AddMedicines#0;class#AdminController#0" expanded="false" />
-            <element signature="method#returnToHome#0;class#AdminController#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/shopManagement/admin/AdminFXML.fxml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1368">
@@ -438,10 +405,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/shopManagement/admin/AddUserDialogController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1800">
-          <caret line="125" column="0" lean-forward="false" selection-start-line="125" selection-start-column="0" selection-end-line="125" selection-end-column="0" />
+        <state relative-caret-position="1206">
+          <caret line="92" column="0" lean-forward="false" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
           <folding>
-            <element signature="docComment;method#passCheck#0;class#AddUserDialogController#0" expanded="false" />
+            <element signature="method#addUserToDB#0;class#AddUserDialogController#0" expanded="false" />
+            <element signature="method#passwordValidation#0;class#AddUserDialogController#0" expanded="false" />
+            <element signature="method#addUser#0;class#AddUserDialogController#0" expanded="false" />
+            <element signature="method#emailValidation#0;class#AddUserDialogController#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -468,11 +438,10 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/utilityClasses/PasswordNotIdenticalException.java">
+    <entry file="file://$PROJECT_DIR$/src/com/shopManagement/utilityClasses/PasswordNotIdenticalException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
           <caret line="14" column="39" lean-forward="false" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -488,9 +457,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2034">
           <caret line="130" column="79" lean-forward="false" selection-start-line="130" selection-start-column="79" selection-end-line="130" selection-end-column="79" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -524,90 +491,10 @@
         <state relative-caret-position="1206">
           <caret line="92" column="0" lean-forward="false" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
           <folding>
-            <element signature="docComment;method#passCheck#0;class#AddUserDialogController#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/shopManagement/admin/AddUserDialog.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="25" column="57" lean-forward="false" selection-start-line="25" selection-start-column="57" selection-end-line="25" selection-end-column="57" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/shopManagement/admin/adminWelcomePageFXML.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="10" lean-forward="false" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/utilityClasses/PasswordNotIdenticalException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="39" lean-forward="false" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/shopManagement/admin/WelcomeController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="828">
-          <caret line="63" column="0" lean-forward="false" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/shopManagement/LoginScreen/LoginScreenController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2034">
-          <caret line="130" column="79" lean-forward="false" selection-start-line="130" selection-start-column="79" selection-end-line="130" selection-end-column="79" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/shopManagement/admin/AdminController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="16" column="51" lean-forward="false" selection-start-line="16" selection-start-column="51" selection-end-line="16" selection-end-column="51" />
-          <folding>
-            <element signature="method#loadProductsTable#0;class#AdminController#0" expanded="false" />
-            <element signature="docComment;method#searchForProduct#0;class#AdminController#0" expanded="false" />
-            <element signature="method#searchForProduct#0;class#AdminController#0" expanded="false" />
-            <element signature="method#AddMedicines#0;class#AdminController#0" expanded="false" />
-            <element signature="method#returnToHome#0;class#AdminController#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/shopManagement/admin/AdminFXML.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1368">
-          <caret line="76" column="32" lean-forward="false" selection-start-line="76" selection-start-column="32" selection-end-line="76" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/shopManagement/admin/AddUserDialogController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1206">
-          <caret line="92" column="0" lean-forward="false" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
-          <folding>
-            <element signature="docComment;method#passCheck#0;class#AddUserDialogController#0" expanded="false" />
+            <element signature="method#addUserToDB#0;class#AddUserDialogController#0" expanded="false" />
+            <element signature="method#passwordValidation#0;class#AddUserDialogController#0" expanded="false" />
+            <element signature="method#addUser#0;class#AddUserDialogController#0" expanded="false" />
+            <element signature="method#emailValidation#0;class#AddUserDialogController#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -634,11 +521,10 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/utilityClasses/PasswordNotIdenticalException.java">
+    <entry file="file://$PROJECT_DIR$/src/com/shopManagement/utilityClasses/PasswordNotIdenticalException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
           <caret line="14" column="39" lean-forward="false" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -654,9 +540,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2034">
           <caret line="130" column="79" lean-forward="false" selection-start-line="130" selection-start-column="79" selection-end-line="130" selection-end-column="79" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -690,7 +574,10 @@
         <state relative-caret-position="1674">
           <caret line="93" column="45" lean-forward="true" selection-start-line="93" selection-start-column="45" selection-end-line="93" selection-end-column="45" />
           <folding>
-            <element signature="docComment;method#passCheck#0;class#AddUserDialogController#0" expanded="false" />
+            <element signature="method#addUserToDB#0;class#AddUserDialogController#0" expanded="false" />
+            <element signature="method#passwordValidation#0;class#AddUserDialogController#0" expanded="false" />
+            <element signature="method#addUser#0;class#AddUserDialogController#0" expanded="false" />
+            <element signature="method#emailValidation#0;class#AddUserDialogController#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -729,9 +616,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2034">
           <caret line="130" column="79" lean-forward="false" selection-start-line="130" selection-start-column="79" selection-end-line="130" selection-end-column="79" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -765,7 +650,10 @@
         <state relative-caret-position="1440">
           <caret line="80" column="0" lean-forward="false" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
           <folding>
-            <element signature="docComment;method#passCheck#0;class#AddUserDialogController#0" expanded="false" />
+            <element signature="method#addUserToDB#0;class#AddUserDialogController#0" expanded="false" />
+            <element signature="method#passwordValidation#0;class#AddUserDialogController#0" expanded="false" />
+            <element signature="method#addUser#0;class#AddUserDialogController#0" expanded="false" />
+            <element signature="method#emailValidation#0;class#AddUserDialogController#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -804,9 +692,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1278">
           <caret line="88" column="0" lean-forward="false" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -829,7 +715,10 @@
         <state relative-caret-position="54">
           <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding>
-            <element signature="docComment;method#passCheck#0;class#AddUserDialogController#0" expanded="false" />
+            <element signature="method#addUserToDB#0;class#AddUserDialogController#0" expanded="false" />
+            <element signature="method#passwordValidation#0;class#AddUserDialogController#0" expanded="false" />
+            <element signature="method#addUser#0;class#AddUserDialogController#0" expanded="false" />
+            <element signature="method#emailValidation#0;class#AddUserDialogController#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -855,54 +744,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/shopManagement/admin/adminWelcomePageFXML.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="10" lean-forward="false" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/utilityClasses/PasswordNotIdenticalException.java">
+    <entry file="file://$PROJECT_DIR$/src/com/shopManagement/utilityClasses/PasswordNotIdenticalException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
           <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/shopManagement/admin/WelcomeController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="828">
-          <caret line="63" column="0" lean-forward="false" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/shopManagement/LoginScreen/LoginScreenController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2034">
-          <caret line="130" column="79" lean-forward="false" selection-start-line="130" selection-start-column="79" selection-end-line="130" selection-end-column="79" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/shopManagement/admin/AdminController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="16" column="51" lean-forward="false" selection-start-line="16" selection-start-column="51" selection-end-line="16" selection-end-column="51" />
-          <folding>
-            <element signature="method#loadProductsTable#0;class#AdminController#0" expanded="false" />
-            <element signature="docComment;method#searchForProduct#0;class#AdminController#0" expanded="false" />
-            <element signature="method#searchForProduct#0;class#AdminController#0" expanded="false" />
-            <element signature="method#AddMedicines#0;class#AdminController#0" expanded="false" />
-            <element signature="method#returnToHome#0;class#AdminController#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -917,10 +762,69 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/shopManagement/newProductDialog/addProduct.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/shopManagement/welcome/welcomePageMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/shopManagement/newProductDialog/addProduct.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="13" lean-forward="true" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/shopManagement/Products/Product.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="954">
+          <caret line="53" column="5" lean-forward="true" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/shopManagement/admin/table-viewCSS.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2286">
+          <caret line="127" column="1" lean-forward="false" selection-start-line="127" selection-start-column="1" selection-end-line="127" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/local/java/jdk1.8.0_161/javafx-src.zip!/javafx/scene/layout/BorderPane.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="140" column="13" lean-forward="false" selection-start-line="140" selection-start-column="13" selection-end-line="140" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/local/java/jdk1.8.0_161/javafx-src.zip!/javafx/fxml/Initializable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="53" column="16" lean-forward="false" selection-start-line="53" selection-start-column="16" selection-end-line="53" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/local/java/jdk1.8.0_161/javafx-src.zip!/com/sun/glass/ui/gtk/GtkApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1400">
+          <caret line="138" column="0" lean-forward="false" selection-start-line="138" selection-start-column="0" selection-end-line="138" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/shopManagement/admin/AddUserDialog.fxml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="24" column="30" lean-forward="false" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
+        <state relative-caret-position="810">
+          <caret line="45" column="29" lean-forward="false" selection-start-line="45" selection-start-column="29" selection-end-line="45" selection-end-column="29" />
           <folding />
         </state>
       </provider>
@@ -928,12 +832,64 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/shopManagement/admin/WelcomeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="4" lean-forward="false" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/shopManagement/admin/adminWelcomePageFXML.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/shopManagement/admin/AdminController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="21" column="4" lean-forward="false" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
+          <folding>
+            <element signature="method#loadProductsTable#0;class#AdminController#0" expanded="false" />
+            <element signature="docComment;method#searchForProduct#0;class#AdminController#0" expanded="false" />
+            <element signature="method#searchForProduct#0;class#AdminController#0" expanded="false" />
+            <element signature="method#AddMedicines#0;class#AdminController#0" expanded="false" />
+            <element signature="method#returnToHome#0;class#AdminController#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/shopManagement/LoginScreen/LoginScreenController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="4" lean-forward="false" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/shopManagement/Users/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="4" lean-forward="false" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/shopManagement/admin/AddUserDialogController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="558">
-          <caret line="49" column="0" lean-forward="true" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+        <state relative-caret-position="505">
+          <caret line="127" column="25" lean-forward="false" selection-start-line="127" selection-start-column="25" selection-end-line="127" selection-end-column="25" />
           <folding>
-            <element signature="docComment;method#passCheck#0;class#AddUserDialogController#0" expanded="false" />
+            <element signature="method#addUserToDB#0;class#AddUserDialogController#0" expanded="false" />
+            <element signature="method#passwordValidation#0;class#AddUserDialogController#0" expanded="false" />
+            <element signature="method#addUser#0;class#AddUserDialogController#0" expanded="false" />
+            <element signature="method#emailValidation#0;class#AddUserDialogController#0" expanded="false" />
           </folding>
         </state>
       </provider>

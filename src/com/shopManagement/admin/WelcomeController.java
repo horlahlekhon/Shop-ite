@@ -1,5 +1,8 @@
 package com.shopManagement.admin;
 
+/**
+ * @Author Olalekan Adebari nee Sisyphus
+ **/
 
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
@@ -35,7 +38,7 @@ public class WelcomeController extends AnchorPane implements Initializable{
 
 
     //////load dialog box to add new user\\\\\\
-    AddUserDialogController addUserDialogController ;
+  ///  AddUserDialogController addUserDialogController ;
 
 
     ////////////new User adding doalog \\\\\\\\\\\\\\\
@@ -91,14 +94,22 @@ public class WelcomeController extends AnchorPane implements Initializable{
     }
     @FXML
     public void loadAddUserDialog() {
-        Stage addUserStage = new Stage();
-        addUserDialogController = new AddUserDialogController(addUserStage);
+        try {
+            Stage addUserStage = new Stage();
+            FXMLLoader loader = new FXMLLoader();
+            BorderPane root =loader.load(getClass().getResource("../admin/AddUserDialog.fxml"));
+            AddUserDialogController dialogController = loader.getController();
 
-        addUserStage.initModality(APPLICATION_MODAL);
-        Scene scene = new Scene(addUserDialogController);
-        addUserStage.setScene(scene);
-        addUserStage.setTitle("Add user Dialog");
-        addUserStage.showAndWait();
+            addUserStage.initModality(APPLICATION_MODAL);
+            Scene scene = new Scene(root);
+            addUserStage.setScene(scene);
+            addUserStage.setTitle("Add user Dialog");
+            addUserStage.showAndWait();
+        }catch (IOException e){
+            e.printStackTrace();
+
+        }
+
 
     }
 
