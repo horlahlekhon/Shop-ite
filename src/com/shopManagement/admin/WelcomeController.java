@@ -4,6 +4,7 @@ package com.shopManagement.admin;
  * @Author Olalekan Adebari nee Sisyphus
  **/
 
+import com.shopManagement.LoginScreen.LoginScreenMain;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -24,7 +25,7 @@ import java.util.ResourceBundle;
 import static javafx.stage.Modality.APPLICATION_MODAL;
 
 
-public class WelcomeController extends AnchorPane implements Initializable{
+public class WelcomeController extends AnchorPane implements Initializable {
     @FXML
     private ToggleGroup welcomeButtons;
     @FXML
@@ -38,19 +39,19 @@ public class WelcomeController extends AnchorPane implements Initializable{
 
 
     //////load dialog box to add new user\\\\\\
-  ///  AddUserDialogController addUserDialogController ;
+    ///  AddUserDialogController addUserDialogController ;
 
 
     ////////////new User adding doalog \\\\\\\\\\\\\\\
 
-    public WelcomeController(Stage newStage){
+    public WelcomeController(Stage newStage) {
         FXMLLoader loader = new FXMLLoader(getClass().getResource("../admin/adminWelcomePageFXML.fxml"));
         loader.setRoot(this);
         loader.setController(this);
 
         try {
             loader.load();
-        }catch (IOException e){
+        } catch (IOException e) {
             e.printStackTrace();
         }
     }
@@ -64,20 +65,22 @@ public class WelcomeController extends AnchorPane implements Initializable{
         });
 
         this.addUser.setOnAction(event -> {
-                loadAddUserDialog();
-                Stage fstage = (Stage) addUser.getScene().getWindow();
-                fstage.close();
+            loadAddUserDialog();
+            Stage fstage = (Stage) addUser.getScene().getWindow();
+            fstage.close();
 
         });
 
+        this.logout.setOnAction(e -> logout());
+
     }
-    public void dashBoardLoader(){
-        try{
+
+    public void dashBoardLoader() {
+        try {
             Stage dashBoard = new Stage();
             FXMLLoader fxmlLoader = new FXMLLoader();
             BorderPane root = fxmlLoader.load(getClass().getResource("../admin/AdminFXML.fxml"));
-           // fxmlLoader.setRoot(root);
-
+            // fxmlLoader.setRoot(root);
 
 
             Scene scene = new Scene(root);
@@ -86,18 +89,19 @@ public class WelcomeController extends AnchorPane implements Initializable{
             dashBoard.setResizable(true);
             dashBoard.show();
 
-        }catch (IOException e){
+        } catch (IOException e) {
             e.printStackTrace();
         }
 
 
     }
+
     @FXML
     public void loadAddUserDialog() {
         try {
             Stage addUserStage = new Stage();
             FXMLLoader loader = new FXMLLoader();
-            BorderPane root =loader.load(getClass().getResource("../admin/AddUserDialog.fxml"));
+            BorderPane root = loader.load(getClass().getResource("../admin/AddUserDialog.fxml"));
             AddUserDialogController dialogController = loader.getController();
 
             addUserStage.initModality(APPLICATION_MODAL);
@@ -105,7 +109,7 @@ public class WelcomeController extends AnchorPane implements Initializable{
             addUserStage.setScene(scene);
             addUserStage.setTitle("Add user Dialog");
             addUserStage.showAndWait();
-        }catch (IOException e){
+        } catch (IOException e) {
             e.printStackTrace();
 
         }
@@ -113,4 +117,19 @@ public class WelcomeController extends AnchorPane implements Initializable{
 
     }
 
+    @FXML
+    public void logout() {
+        Stage welcomeScreen = (Stage) logout.getScene().getWindow();
+        welcomeScreen.close();
+        Stage loginScreen = new Stage();
+
+        LoginScreenMain main = new LoginScreenMain();
+        try {
+            main.start(loginScreen);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+
+
+    }
 }

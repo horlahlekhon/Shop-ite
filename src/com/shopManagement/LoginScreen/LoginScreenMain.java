@@ -8,14 +8,17 @@ import javafx.stage.Stage;
 
 public class LoginScreenMain extends Application {
 
+    Stage window;
+
     @Override
     public void start(Stage primaryStage) throws Exception{
+        this.window = primaryStage;
         Parent root = FXMLLoader.load(getClass().getResource("../LoginScreen/LoginScreen.fxml"));
-        primaryStage.setTitle("Medical Management System - Log In Screen");
-        primaryStage.setScene(new Scene(root, 1280, 800));
-        primaryStage.setResizable(false);
+        window.setTitle("Medical Management System - Log In Screen");
+        window.setScene(new Scene(root, 1280, 800));
+        window.setResizable(false);
 
-        primaryStage.show();
+        window.show();
     }
 
 

@@ -19,7 +19,7 @@
     <center>
         <Pane prefHeight="538.0" prefWidth="1036.0">
             <children>
-                <TableView fx:id="medicineTable" layoutX="0.0" layoutY="0.0" prefHeight="677.0" prefWidth="1225.0">
+                <TableView fx:id="medicineTable" layoutX="0.0" layoutY="0.0" prefHeight="677.0" prefWidth="1225.0" styleClass=".table-view" stylesheets="@table-viewCSS.css">
                     <columns>
                         <TableColumn fx:id="productIDColumn" prefWidth="96.33334350585938" text="Product ID" />
                         <TableColumn fx:id="productNameColumn" prefWidth="219.66665649414062" text="Product Name" />

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import com.gluonhq.charm.glisten.control.ToggleButtonGroup?>
-<?import javafx.scene.control.Button?>
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXPasswordField?>
+<?import com.jfoenix.controls.JFXTextField?>
 <?import javafx.scene.control.Label?>
-<?import javafx.scene.control.PasswordField?>
 <?import javafx.scene.control.Separator?>
-<?import javafx.scene.control.TextField?>
 <?import javafx.scene.control.ToggleButton?>
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.text.Font?>
@@ -20,19 +20,19 @@
             <Font size="14.0" fx:id="x1" />
           </font>
         </Label>
-        <TextField fx:id="userName" layoutX="17.0" layoutY="213.0" prefHeight="25.0" prefWidth="171.0" />
         <Label font="$x1" layoutX="264.0" layoutY="168.0" prefHeight="25.0" prefWidth="84.0" text="Password" />
-        <Button fx:id="login" layoutX="19.0" layoutY="372.0" mnemonicParsing="false" onAction="#login" prefHeight="32.0" prefWidth="171.0" text="Log In" />
         <Separator layoutY="129.0" orientation="VERTICAL" prefHeight="425.0" prefWidth="0.0" />
-            <PasswordField id="passWord" fx:id="passWord" layoutX="238.0" layoutY="211.0" prefWidth="171.0" />
             <Label fx:id="dbStatus" layoutX="421.0" layoutY="756.0" prefHeight="31.0" prefWidth="200.0" />
             <ToggleButtonGroup fx:id="userToggleGroup" layoutX="18.0" layoutY="294.0" prefHeight="32.0" prefWidth="171.0" selectionType="SINGLE">
                 <toggles>
-                    <ToggleButton fx:id="adminRadioButton" prefHeight="32.0" prefWidth="56.0" text="Admin" />
+                    <ToggleButton fx:id="adminRadioButton" prefHeight="32.0" prefWidth="69.0" text="Admin" />
                     <ToggleButton fx:id="nuetralToggleState" minWidth="38.0" prefHeight="32.0" prefWidth="38.0" selected="true" />
-                    <ToggleButton fx:id="nurseRadioButton" minWidth="53.0" prefHeight="32.0" prefWidth="53.0" text="Nurse" />
+                    <ToggleButton fx:id="nurseRadioButton" minWidth="53.0" prefHeight="32.0" prefWidth="74.0" text="User" />
                 </toggles>
             </ToggleButtonGroup>
+            <JFXTextField fx:id="userName" layoutX="19.0" layoutY="218.0" />
+            <JFXButton fx:id="login" buttonType="RAISED" layoutX="18.0" layoutY="374.0" onAction="#login" prefHeight="32.0" prefWidth="183.0" ripplerFill="BLACK" text="Login" />
+            <JFXPasswordField fx:id="passWord" focusColor="#40a869" labelFloat="true" layoutX="264.0" layoutY="218.0" />
       </children>
     </Pane>
   </children>

@@ -39,7 +39,7 @@ public class AddUserDialogController implements Initializable{
     @FXML
     private JFXDatePicker newUserDOB;
     @FXML
-    private JFXComboBox<UsersOptions> usersOptionsComboBox;
+    private JFXComboBox<UsersOptions> usersOptionsComboBox; // FIXME: 3/5/18  this combobox doesnt return any value
     @FXML
     private JFXTextField newUserContactNumber;
    private  User newUser;
