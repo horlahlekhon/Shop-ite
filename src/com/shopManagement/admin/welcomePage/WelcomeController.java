@@ -1,10 +1,11 @@
-package com.shopManagement.admin;
+package com.shopManagement.admin.welcomePage;
 
 /**
  * @Author Olalekan Adebari nee Sisyphus
  **/
 
 import com.shopManagement.LoginScreen.LoginScreenMain;
+import com.shopManagement.admin.addNewUser.AddUserDialogController;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -14,7 +15,6 @@ import javafx.scene.control.Button;
 import javafx.scene.control.ToggleGroup;
 import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.BorderPane;
-import javafx.stage.Modality;
 import javafx.stage.Stage;
 
 
@@ -45,7 +45,7 @@ public class WelcomeController extends AnchorPane implements Initializable {
     ////////////new User adding doalog \\\\\\\\\\\\\\\
 
     public WelcomeController(Stage newStage) {
-        FXMLLoader loader = new FXMLLoader(getClass().getResource("../admin/adminWelcomePageFXML.fxml"));
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("../welcomePage/adminWelcomePageFXML.fxml"));
         loader.setRoot(this);
         loader.setController(this);
 
@@ -66,8 +66,8 @@ public class WelcomeController extends AnchorPane implements Initializable {
 
         this.addUser.setOnAction(event -> {
             loadAddUserDialog();
-            Stage fstage = (Stage) addUser.getScene().getWindow();
-            fstage.close();
+            /*Stage fstage = (Stage) addUser.getScene().getWindow();
+            fstage.close();*/
 
         });
 
@@ -79,7 +79,7 @@ public class WelcomeController extends AnchorPane implements Initializable {
         try {
             Stage dashBoard = new Stage();
             FXMLLoader fxmlLoader = new FXMLLoader();
-            BorderPane root = fxmlLoader.load(getClass().getResource("../admin/AdminFXML.fxml"));
+            BorderPane root = fxmlLoader.load(getClass().getResource("../dashboard/AdminFXML.fxml"));
             // fxmlLoader.setRoot(root);
 
 
@@ -101,7 +101,7 @@ public class WelcomeController extends AnchorPane implements Initializable {
         try {
             Stage addUserStage = new Stage();
             FXMLLoader loader = new FXMLLoader();
-            BorderPane root = loader.load(getClass().getResource("../admin/AddUserDialog.fxml"));
+            BorderPane root = loader.load(getClass().getResource("../addNewUser/AddUserDialog.fxml"));
             AddUserDialogController dialogController = loader.getController();
 
             addUserStage.initModality(APPLICATION_MODAL);

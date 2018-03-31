@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import com.gluonhq.charm.glisten.control.BottomNavigationButton?>
+<?import com.jfoenix.controls.JFXButton?>
 <?import com.jfoenix.controls.JFXTextField?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.layout.AnchorPane?>
 
-
-<AnchorPane prefHeight="440.0" prefWidth="547.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.shopManagement.admin.NewProductDialog">
+<AnchorPane prefHeight="500.0" prefWidth="566.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.shopManagement.admin.newProductDialog.NewProductDialogController">
    <children>
       <JFXTextField fx:id="productID" layoutX="42.0" layoutY="134.0" prefHeight="26.0" prefWidth="171.0" />
       <Label layoutX="42.0" layoutY="91.0" prefHeight="26.0" prefWidth="85.0" text="Product ID" />
@@ -21,6 +20,6 @@
       <JFXTextField fx:id="unitPrice" layoutX="330.0" layoutY="333.0" prefHeight="26.0" prefWidth="171.0" />
       <JFXTextField fx:id="newStock" layoutX="42.0" layoutY="333.0" prefHeight="26.0" prefWidth="171.0" />
       <Label layoutX="42.0" layoutY="12.0" prefHeight="45.0" prefWidth="187.0" style="-fx-font-size: 20;" text="Product Details" />
-      <BottomNavigationButton layoutY="388.0" prefHeight="53.0" prefWidth="547.0" text="Add Product" />
+      <JFXButton fx:id="addProductButton" layoutX="39.0" layoutY="406.0" onAction="#addProduct" prefHeight="45.0" prefWidth="128.0" style="-fx-background-color: green;" text="Add Product" />
    </children>
 </AnchorPane>

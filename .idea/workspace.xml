@@ -2,24 +2,141 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="418b5844-9c36-4be0-8ef6-923094474819" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/shopManagement/admin/newProductDialog/NewProductDialogController.java" />
+      <change beforePath="$PROJECT_DIR$/.idea/Shop management System.iml" afterPath="$PROJECT_DIR$/.idea/Shop management System.iml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/charm_glisten_4_4_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/charm_glisten_4_4_1.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/jfoenix_8_0_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/jfoenix_8_0_1.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sqlite_jdbc_3_21_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/sqlite_jdbc_3_21_0.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/README" afterPath="$PROJECT_DIR$/README" />
+      <change beforePath="$PROJECT_DIR$/Shop Management System.iml" afterPath="$PROJECT_DIR$/Shop Management System.iml" />
+      <change beforePath="$PROJECT_DIR$/charm-glisten-4.4.1.jar" afterPath="$PROJECT_DIR$/charm-glisten-4.4.1.jar" />
+      <change beforePath="$PROJECT_DIR$/jfoenix-8.0.1.jar" afterPath="$PROJECT_DIR$/jfoenix-8.0.1.jar" />
+      <change beforePath="$PROJECT_DIR$/medicalDB.sqlite" afterPath="$PROJECT_DIR$/medicalDB.sqlite" />
+      <change beforePath="$PROJECT_DIR$/medicalDB.sqlite-journal" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/Medical Management System/LoginScreen.fxml" afterPath="$PROJECT_DIR$/out/production/Medical Management System/LoginScreen.fxml" />
+      <change beforePath="$PROJECT_DIR$/out/production/Medical Management System/com/medicalManagement/DatabaseConnection/DatabaseConnection.class" afterPath="$PROJECT_DIR$/out/production/Medical Management System/com/medicalManagement/DatabaseConnection/DatabaseConnection.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Medical Management System/com/medicalManagement/GUI/board.fxml" afterPath="$PROJECT_DIR$/out/production/Medical Management System/com/medicalManagement/GUI/board.fxml" />
+      <change beforePath="$PROJECT_DIR$/out/production/Medical Management System/com/medicalManagement/LoginScreen/LoginModel.class" afterPath="$PROJECT_DIR$/out/production/Medical Management System/com/medicalManagement/LoginScreen/LoginModel.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Medical Management System/com/medicalManagement/LoginScreen/LoginScreen.fxml" afterPath="$PROJECT_DIR$/out/production/Medical Management System/com/medicalManagement/LoginScreen/LoginScreen.fxml" />
+      <change beforePath="$PROJECT_DIR$/out/production/Medical Management System/com/medicalManagement/LoginScreen/LoginScreenController.class" afterPath="$PROJECT_DIR$/out/production/Medical Management System/com/medicalManagement/LoginScreen/LoginScreenController.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Medical Management System/com/medicalManagement/LoginScreen/LoginScreenMain.class" afterPath="$PROJECT_DIR$/out/production/Medical Management System/com/medicalManagement/LoginScreen/LoginScreenMain.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Medical Management System/com/medicalManagement/LoginScreen/UsersOptions.class" afterPath="$PROJECT_DIR$/out/production/Medical Management System/com/medicalManagement/LoginScreen/UsersOptions.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Medical Management System/com/medicalManagement/Medicine/Medicine.class" afterPath="$PROJECT_DIR$/out/production/Medical Management System/com/medicalManagement/Medicine/Medicine.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Medical Management System/com/medicalManagement/Medicine/MedicineCompany.class" afterPath="$PROJECT_DIR$/out/production/Medical Management System/com/medicalManagement/Medicine/MedicineCompany.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Medical Management System/com/medicalManagement/Medicine/SachetCaplets.class" afterPath="$PROJECT_DIR$/out/production/Medical Management System/com/medicalManagement/Medicine/SachetCaplets.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Medical Management System/com/medicalManagement/Medicine/medicines_Specs" afterPath="$PROJECT_DIR$/out/production/Medical Management System/com/medicalManagement/Medicine/medicines_Specs" />
+      <change beforePath="$PROJECT_DIR$/out/production/Medical Management System/com/medicalManagement/Users/RegularUser.class" afterPath="$PROJECT_DIR$/out/production/Medical Management System/com/medicalManagement/Users/RegularUser.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Medical Management System/com/medicalManagement/Users/User.class" afterPath="$PROJECT_DIR$/out/production/Medical Management System/com/medicalManagement/Users/User.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Medical Management System/com/medicalManagement/admin/Admin.class" afterPath="$PROJECT_DIR$/out/production/Medical Management System/com/medicalManagement/admin/Admin.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Medical Management System/com/medicalManagement/admin/AdminController.class" afterPath="$PROJECT_DIR$/out/production/Medical Management System/com/medicalManagement/admin/AdminController.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Medical Management System/com/medicalManagement/admin/AdminFXML.fxml" afterPath="$PROJECT_DIR$/out/production/Medical Management System/com/medicalManagement/admin/AdminFXML.fxml" />
+      <change beforePath="$PROJECT_DIR$/out/production/Medical Management System/com/medicalManagement/admin/WelcomeController.class" afterPath="$PROJECT_DIR$/out/production/Medical Management System/com/medicalManagement/admin/WelcomeController.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Medical Management System/com/medicalManagement/admin/adminWelcomePageFXML.fxml" afterPath="$PROJECT_DIR$/out/production/Medical Management System/com/medicalManagement/admin/adminWelcomePageFXML.fxml" />
+      <change beforePath="$PROJECT_DIR$/out/production/Medical Management System/com/medicalManagement/welcome/welcomePageMain.class" afterPath="$PROJECT_DIR$/out/production/Medical Management System/com/medicalManagement/welcome/welcomePageMain.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Shop Management System/LoginScreen.fxml" afterPath="$PROJECT_DIR$/out/production/Shop Management System/LoginScreen.fxml" />
+      <change beforePath="$PROJECT_DIR$/out/production/Shop Management System/com/shopManagement/DatabaseConnection/DatabaseConnection.class" afterPath="$PROJECT_DIR$/out/production/Shop Management System/com/shopManagement/DatabaseConnection/DatabaseConnection.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Shop Management System/com/shopManagement/GUI/board.fxml" afterPath="$PROJECT_DIR$/out/production/Shop Management System/com/shopManagement/GUI/board.fxml" />
+      <change beforePath="$PROJECT_DIR$/out/production/Shop Management System/com/shopManagement/LoginScreen/LoginModel.class" afterPath="$PROJECT_DIR$/out/production/Shop Management System/com/shopManagement/LoginScreen/LoginModel.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Shop Management System/com/shopManagement/LoginScreen/LoginScreen.fxml" afterPath="$PROJECT_DIR$/out/production/Shop Management System/com/shopManagement/LoginScreen/LoginScreen.fxml" />
+      <change beforePath="$PROJECT_DIR$/out/production/Shop Management System/com/shopManagement/LoginScreen/LoginScreenController.class" afterPath="$PROJECT_DIR$/out/production/Shop Management System/com/shopManagement/LoginScreen/LoginScreenController.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Shop Management System/com/shopManagement/LoginScreen/LoginScreenMain.class" afterPath="$PROJECT_DIR$/out/production/Shop Management System/com/shopManagement/LoginScreen/LoginScreenMain.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Shop Management System/com/shopManagement/LoginScreen/UsersOptions.class" afterPath="$PROJECT_DIR$/out/production/Shop Management System/com/shopManagement/LoginScreen/UsersOptions.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Shop Management System/com/shopManagement/Products/Product.class" afterPath="$PROJECT_DIR$/out/production/Shop Management System/com/shopManagement/Products/Product.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Shop Management System/com/shopManagement/Products/ProductCompany.class" afterPath="$PROJECT_DIR$/out/production/Shop Management System/com/shopManagement/Products/ProductCompany.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Shop Management System/com/shopManagement/Products/SachetCaplets.class" afterPath="$PROJECT_DIR$/out/production/Shop Management System/com/shopManagement/Products/SachetCaplets.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Shop Management System/com/shopManagement/Products/medicines_Specs" afterPath="$PROJECT_DIR$/out/production/Shop Management System/com/shopManagement/Products/medicines_Specs" />
+      <change beforePath="$PROJECT_DIR$/out/production/Shop Management System/com/shopManagement/Users/User.class" afterPath="$PROJECT_DIR$/out/production/Shop Management System/com/shopManagement/Users/User.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Shop Management System/com/shopManagement/admin/AddUserDialog.fxml" afterPath="$PROJECT_DIR$/out/production/Shop Management System/com/shopManagement/admin/AddUserDialog.fxml" />
+      <change beforePath="$PROJECT_DIR$/out/production/Shop Management System/com/shopManagement/admin/AddUserDialogController.class" afterPath="$PROJECT_DIR$/out/production/Shop Management System/com/shopManagement/admin/AddUserDialogController.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Shop Management System/com/shopManagement/admin/Admin.class" afterPath="$PROJECT_DIR$/out/production/Shop Management System/com/shopManagement/admin/Admin.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Shop Management System/com/shopManagement/admin/AdminController.class" afterPath="$PROJECT_DIR$/out/production/Shop Management System/com/shopManagement/admin/AdminController.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Shop Management System/com/shopManagement/admin/AdminFXML.fxml" afterPath="$PROJECT_DIR$/out/production/Shop Management System/com/shopManagement/admin/AdminFXML.fxml" />
+      <change beforePath="$PROJECT_DIR$/out/production/Shop Management System/com/shopManagement/admin/WelcomeController.class" afterPath="$PROJECT_DIR$/out/production/Shop Management System/com/shopManagement/admin/WelcomeController.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Shop Management System/com/shopManagement/admin/addUserDialog.css" afterPath="$PROJECT_DIR$/out/production/Shop Management System/com/shopManagement/admin/addUserDialog.css" />
+      <change beforePath="$PROJECT_DIR$/out/production/Shop Management System/com/shopManagement/admin/adminWelcomePageFXML.fxml" afterPath="$PROJECT_DIR$/out/production/Shop Management System/com/shopManagement/admin/adminWelcomePageFXML.fxml" />
+      <change beforePath="$PROJECT_DIR$/out/production/Shop Management System/com/shopManagement/welcome/welcomePageMain.class" afterPath="$PROJECT_DIR$/out/production/Shop Management System/com/shopManagement/welcome/welcomePageMain.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Shop management System/.idea/Shop management System.iml" afterPath="$PROJECT_DIR$/out/production/Shop management System/.idea/Shop management System.iml" />
+      <change beforePath="$PROJECT_DIR$/out/production/Shop management System/.idea/libraries/charm_glisten_4_4_1.xml" afterPath="$PROJECT_DIR$/out/production/Shop management System/.idea/libraries/charm_glisten_4_4_1.xml" />
+      <change beforePath="$PROJECT_DIR$/out/production/Shop management System/.idea/libraries/jfoenix_8_0_1.xml" afterPath="$PROJECT_DIR$/out/production/Shop management System/.idea/libraries/jfoenix_8_0_1.xml" />
+      <change beforePath="$PROJECT_DIR$/out/production/Shop management System/.idea/libraries/sqlite_jdbc_3_21_0.xml" afterPath="$PROJECT_DIR$/out/production/Shop management System/.idea/libraries/sqlite_jdbc_3_21_0.xml" />
+      <change beforePath="$PROJECT_DIR$/out/production/Shop management System/.idea/misc.xml" afterPath="$PROJECT_DIR$/out/production/Shop management System/.idea/misc.xml" />
+      <change beforePath="$PROJECT_DIR$/out/production/Shop management System/.idea/modules.xml" afterPath="$PROJECT_DIR$/out/production/Shop management System/.idea/modules.xml" />
+      <change beforePath="$PROJECT_DIR$/out/production/Shop management System/.idea/vcs.xml" afterPath="$PROJECT_DIR$/out/production/Shop management System/.idea/vcs.xml" />
       <change beforePath="$PROJECT_DIR$/out/production/Shop management System/.idea/workspace.xml" afterPath="$PROJECT_DIR$/out/production/Shop management System/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/out/production/Shop management System/LoginScreen.fxml" afterPath="$PROJECT_DIR$/out/production/Shop management System/LoginScreen.fxml" />
+      <change beforePath="$PROJECT_DIR$/out/production/Shop management System/README" afterPath="$PROJECT_DIR$/out/production/Shop management System/README" />
+      <change beforePath="$PROJECT_DIR$/out/production/Shop management System/Shop Management System.iml" afterPath="$PROJECT_DIR$/out/production/Shop management System/Shop Management System.iml" />
+      <change beforePath="$PROJECT_DIR$/out/production/Shop management System/charm-glisten-4.4.1.jar" afterPath="$PROJECT_DIR$/out/production/Shop management System/charm-glisten-4.4.1.jar" />
+      <change beforePath="$PROJECT_DIR$/out/production/Shop management System/com/shopManagement/DatabaseConnection/DatabaseConnection.class" afterPath="$PROJECT_DIR$/out/production/Shop management System/com/shopManagement/DatabaseConnection/DatabaseConnection.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Shop management System/com/shopManagement/LoginScreen/LoginModel.class" afterPath="$PROJECT_DIR$/out/production/Shop management System/com/shopManagement/LoginScreen/LoginModel.class" />
       <change beforePath="$PROJECT_DIR$/out/production/Shop management System/com/shopManagement/LoginScreen/LoginScreen.fxml" afterPath="$PROJECT_DIR$/out/production/Shop management System/com/shopManagement/LoginScreen/LoginScreen.fxml" />
       <change beforePath="$PROJECT_DIR$/out/production/Shop management System/com/shopManagement/LoginScreen/LoginScreenController.class" afterPath="$PROJECT_DIR$/out/production/Shop management System/com/shopManagement/LoginScreen/LoginScreenController.class" />
       <change beforePath="$PROJECT_DIR$/out/production/Shop management System/com/shopManagement/LoginScreen/LoginScreenMain.class" afterPath="$PROJECT_DIR$/out/production/Shop management System/com/shopManagement/LoginScreen/LoginScreenMain.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Shop management System/com/shopManagement/LoginScreen/UsersOptions.class" afterPath="$PROJECT_DIR$/out/production/Shop management System/com/shopManagement/LoginScreen/UsersOptions.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Shop management System/com/shopManagement/Products/Product.class" afterPath="$PROJECT_DIR$/out/production/Shop management System/com/shopManagement/Products/Product.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Shop management System/com/shopManagement/Products/ProductCompany.class" afterPath="$PROJECT_DIR$/out/production/Shop management System/com/shopManagement/Products/ProductCompany.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Shop management System/com/shopManagement/Products/SachetCaplets.class" afterPath="$PROJECT_DIR$/out/production/Shop management System/com/shopManagement/Products/SachetCaplets.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Shop management System/com/shopManagement/Products/medicines_Specs" afterPath="$PROJECT_DIR$/out/production/Shop management System/com/shopManagement/Products/medicines_Specs" />
       <change beforePath="$PROJECT_DIR$/out/production/Shop management System/com/shopManagement/Users/User.class" afterPath="$PROJECT_DIR$/out/production/Shop management System/com/shopManagement/Users/User.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/Shop management System/com/shopManagement/admin/AddUserDialogController.class" afterPath="$PROJECT_DIR$/out/production/Shop management System/com/shopManagement/admin/AddUserDialogController.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/Shop management System/com/shopManagement/admin/AdminController.class" afterPath="$PROJECT_DIR$/out/production/Shop management System/com/shopManagement/admin/AdminController.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/Shop management System/com/shopManagement/admin/AdminFXML.fxml" afterPath="$PROJECT_DIR$/out/production/Shop management System/com/shopManagement/admin/AdminFXML.fxml" />
-      <change beforePath="$PROJECT_DIR$/out/production/Shop management System/com/shopManagement/admin/WelcomeController.class" afterPath="$PROJECT_DIR$/out/production/Shop management System/com/shopManagement/admin/WelcomeController.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Shop management System/com/shopManagement/admin/AddUserDialog.fxml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/Shop management System/com/shopManagement/admin/AddUserDialogController.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/Shop management System/com/shopManagement/admin/Admin.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/Shop management System/com/shopManagement/admin/AdminController.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/Shop management System/com/shopManagement/admin/AdminFXML.fxml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/Shop management System/com/shopManagement/admin/WelcomeController.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/Shop management System/com/shopManagement/admin/addUserDialog.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/Shop management System/com/shopManagement/admin/adminWelcomePageFXML.fxml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/Shop management System/com/shopManagement/admin/newProductDialog.fxml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/Shop management System/com/shopManagement/admin/newProductDialogController.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/Shop management System/com/shopManagement/admin/table-viewCSS.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/Shop management System/com/shopManagement/newProductDialog/addProduct.class" afterPath="$PROJECT_DIR$/out/production/Shop management System/com/shopManagement/newProductDialog/addProduct.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Shop management System/com/shopManagement/newProductDialog/addProduct.fxml" afterPath="$PROJECT_DIR$/out/production/Shop management System/com/shopManagement/newProductDialog/addProduct.fxml" />
+      <change beforePath="$PROJECT_DIR$/out/production/Shop management System/com/shopManagement/utilityClasses/PasswordNotIdenticalException.class" afterPath="$PROJECT_DIR$/out/production/Shop management System/com/shopManagement/utilityClasses/PasswordNotIdenticalException.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Shop management System/com/shopManagement/welcome/welcomePageMain.class" afterPath="$PROJECT_DIR$/out/production/Shop management System/com/shopManagement/welcome/welcomePageMain.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Shop management System/jfoenix-8.0.1.jar" afterPath="$PROJECT_DIR$/out/production/Shop management System/jfoenix-8.0.1.jar" />
       <change beforePath="$PROJECT_DIR$/out/production/Shop management System/medicalDB.sqlite" afterPath="$PROJECT_DIR$/out/production/Shop management System/medicalDB.sqlite" />
+      <change beforePath="$PROJECT_DIR$/out/production/Shop management System/medicalDB.sqlite-journal" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/Shop management System/sqlite-jdbc-3.21.0.jar" afterPath="$PROJECT_DIR$/out/production/Shop management System/sqlite-jdbc-3.21.0.jar" />
+      <change beforePath="$PROJECT_DIR$/out/production/Shop management System/src/LoginScreen.fxml" afterPath="$PROJECT_DIR$/out/production/Shop management System/src/LoginScreen.fxml" />
       <change beforePath="$PROJECT_DIR$/out/production/Shop management System/src/com/shopManagement/LoginScreen/LoginScreen.fxml" afterPath="$PROJECT_DIR$/out/production/Shop management System/src/com/shopManagement/LoginScreen/LoginScreen.fxml" />
-      <change beforePath="$PROJECT_DIR$/out/production/Shop management System/src/com/shopManagement/admin/AdminFXML.fxml" afterPath="$PROJECT_DIR$/out/production/Shop management System/src/com/shopManagement/admin/AdminFXML.fxml" />
+      <change beforePath="$PROJECT_DIR$/out/production/Shop management System/src/com/shopManagement/Products/medicines_Specs" afterPath="$PROJECT_DIR$/out/production/Shop management System/src/com/shopManagement/Products/medicines_Specs" />
+      <change beforePath="$PROJECT_DIR$/out/production/Shop management System/src/com/shopManagement/admin/AddUserDialog.fxml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/Shop management System/src/com/shopManagement/admin/AdminFXML.fxml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/Shop management System/src/com/shopManagement/admin/addUserDialog.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/Shop management System/src/com/shopManagement/admin/adminWelcomePageFXML.fxml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/Shop management System/src/com/shopManagement/admin/newProductDialog.fxml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/Shop management System/src/com/shopManagement/admin/table-viewCSS.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/Shop management System/src/com/shopManagement/newProductDialog/addProduct.fxml" afterPath="$PROJECT_DIR$/out/production/Shop management System/src/com/shopManagement/newProductDialog/addProduct.fxml" />
+      <change beforePath="$PROJECT_DIR$/sqlite-jdbc-3.21.0.jar" afterPath="$PROJECT_DIR$/sqlite-jdbc-3.21.0.jar" />
+      <change beforePath="$PROJECT_DIR$/src/LoginScreen.fxml" afterPath="$PROJECT_DIR$/src/LoginScreen.fxml" />
+      <change beforePath="$PROJECT_DIR$/src/com/shopManagement/DatabaseConnection/DatabaseConnection.java" afterPath="$PROJECT_DIR$/src/com/shopManagement/DatabaseConnection/DatabaseConnection.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/shopManagement/LoginScreen/LoginModel.java" afterPath="$PROJECT_DIR$/src/com/shopManagement/LoginScreen/LoginModel.java" />
       <change beforePath="$PROJECT_DIR$/src/com/shopManagement/LoginScreen/LoginScreen.fxml" afterPath="$PROJECT_DIR$/src/com/shopManagement/LoginScreen/LoginScreen.fxml" />
-      <change beforePath="$PROJECT_DIR$/src/com/shopManagement/LoginScreen/LoginScreenMain.java" afterPath="$PROJECT_DIR$/src/com/shopManagement/LoginScreen/LoginScreenMain.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/shopManagement/admin/AddUserDialogController.java" afterPath="$PROJECT_DIR$/src/com/shopManagement/admin/AddUserDialogController.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/shopManagement/admin/AdminFXML.fxml" afterPath="$PROJECT_DIR$/src/com/shopManagement/admin/AdminFXML.fxml" />
-      <change beforePath="$PROJECT_DIR$/src/com/shopManagement/admin/WelcomeController.java" afterPath="$PROJECT_DIR$/src/com/shopManagement/admin/WelcomeController.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/shopManagement/LoginScreen/LoginScreenController.java" afterPath="$PROJECT_DIR$/src/com/shopManagement/LoginScreen/LoginScreenController.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/shopManagement/LoginScreen/UsersOptions.java" afterPath="$PROJECT_DIR$/src/com/shopManagement/LoginScreen/UsersOptions.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/shopManagement/Products/Product.java" afterPath="$PROJECT_DIR$/src/com/shopManagement/Products/Product.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/shopManagement/Products/ProductCompany.java" afterPath="$PROJECT_DIR$/src/com/shopManagement/Products/ProductCompany.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/shopManagement/Products/SachetCaplets.java" afterPath="$PROJECT_DIR$/src/com/shopManagement/Products/SachetCaplets.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/shopManagement/Products/medicines_Specs" afterPath="$PROJECT_DIR$/src/com/shopManagement/Products/medicines_Specs" />
+      <change beforePath="$PROJECT_DIR$/src/com/shopManagement/admin/AddUserDialog.fxml" afterPath="$PROJECT_DIR$/src/com/shopManagement/admin/addNewUser/AddUserDialog.fxml" />
+      <change beforePath="$PROJECT_DIR$/src/com/shopManagement/admin/AddUserDialogController.java" afterPath="$PROJECT_DIR$/src/com/shopManagement/admin/addNewUser/AddUserDialogController.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/shopManagement/admin/Admin.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/com/shopManagement/admin/AdminController.java" afterPath="$PROJECT_DIR$/src/com/shopManagement/admin/dashboard/AdminController.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/shopManagement/admin/AdminFXML.fxml" afterPath="$PROJECT_DIR$/src/com/shopManagement/admin/dashboard/AdminFXML.fxml" />
+      <change beforePath="$PROJECT_DIR$/src/com/shopManagement/admin/WelcomeController.java" afterPath="$PROJECT_DIR$/src/com/shopManagement/admin/welcomePage/WelcomeController.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/shopManagement/admin/addUserDialog.css" afterPath="$PROJECT_DIR$/src/com/shopManagement/admin/addNewUser/addUserDialog.css" />
+      <change beforePath="$PROJECT_DIR$/src/com/shopManagement/admin/adminWelcomePageFXML.fxml" afterPath="$PROJECT_DIR$/src/com/shopManagement/admin/welcomePage/adminWelcomePageFXML.fxml" />
+      <change beforePath="$PROJECT_DIR$/src/com/shopManagement/admin/newProductDialog.fxml" afterPath="$PROJECT_DIR$/src/com/shopManagement/admin/newProductDialog/newProductDialog.fxml" />
+      <change beforePath="$PROJECT_DIR$/src/com/shopManagement/admin/newProductDialogController.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/com/shopManagement/admin/table-viewCSS.css" afterPath="$PROJECT_DIR$/src/com/shopManagement/admin/dashboard/table-viewCSS.css" />
+      <change beforePath="$PROJECT_DIR$/src/com/shopManagement/newProductDialog/addProduct.fxml" afterPath="$PROJECT_DIR$/src/com/shopManagement/newProductDialog/addProduct.fxml" />
+      <change beforePath="$PROJECT_DIR$/src/com/shopManagement/newProductDialog/addProduct.java" afterPath="$PROJECT_DIR$/src/com/shopManagement/newProductDialog/addProduct.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/shopManagement/utilityClasses/PasswordNotIdenticalException.java" afterPath="$PROJECT_DIR$/src/com/shopManagement/utilityClasses/PasswordNotIdenticalException.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/shopManagement/welcome/welcomePageMain.java" afterPath="$PROJECT_DIR$/src/com/shopManagement/welcome/welcomePageMain.java" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -30,75 +147,80 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/shopManagement/Users/User.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="5" column="4" lean-forward="false" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="AdminController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/shopManagement/admin/AdminController.java">
+        <entry file="file://$PROJECT_DIR$/src/com/shopManagement/admin/dashboard/AdminController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2286">
-              <caret line="233" column="20" lean-forward="false" selection-start-line="233" selection-start-column="20" selection-end-line="233" selection-end-column="20" />
+            <state relative-caret-position="667">
+              <caret line="292" column="110" lean-forward="false" selection-start-line="292" selection-start-column="110" selection-end-line="292" selection-end-column="110" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#loadProductsTable#0;class#AdminController#0" expanded="false" />
-                <element signature="docComment;method#searchForProduct#0;class#AdminController#0" expanded="false" />
-                <element signature="method#searchForProduct#0;class#AdminController#0" expanded="false" />
-                <element signature="method#AddMedicines#0;class#AdminController#0" expanded="false" />
+                <element signature="docComment;method#AddProduct#0;class#AdminController#0" expanded="false" />
+                <element signature="method#AddProduct#0;class#AdminController#0" expanded="false" />
+                <element signature="docComment;method#returnToHome#0;class#AdminController#0" expanded="false" />
+                <element signature="method#returnToHome#0;class#AdminController#0" expanded="false" />
+                <element signature="method#deleteProduct#0;class#AdminController#0" expanded="false" />
+                <element signature="method#loadProductFromDB#0;class#AdminController#0" expanded="false" />
+                <element signature="e#16031#16032#0" expanded="true" />
+                <element signature="e#16099#16100#0" expanded="true" />
+                <element signature="e#16152#16153#0" expanded="true" />
+                <element signature="e#16194#16195#0" expanded="true" />
+                <element signature="method#loadCart#0;class#AdminController#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Product.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/shopManagement/Products/Product.java">
+      <file leaf-file-name="NewProductDialogController.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/shopManagement/admin/newProductDialog/NewProductDialogController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-323">
-              <caret line="8" column="39" lean-forward="false" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
+            <state relative-caret-position="1260">
+              <caret line="175" column="38" lean-forward="false" selection-start-line="175" selection-start-column="38" selection-end-line="175" selection-end-column="38" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="newProductDialog.fxml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/shopManagement/admin/newProductDialog.fxml">
-          <provider editor-type-id="JavaFX-Scene-Builder">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="newProductDialogController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/shopManagement/admin/newProductDialogController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="25" column="30" lean-forward="true" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="AdminFXML.fxml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/shopManagement/admin/AdminFXML.fxml">
+        <entry file="file://$PROJECT_DIR$/src/com/shopManagement/admin/dashboard/AdminFXML.fxml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="15" column="35" lean-forward="false" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
           <provider editor-type-id="JavaFX-Scene-Builder">
             <state />
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SalesCartController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/shopManagement/shopingCart/SalesCartController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="634">
-              <caret line="60" column="25" lean-forward="false" selection-start-line="60" selection-start-column="25" selection-end-line="60" selection-end-column="25" />
+            <state relative-caret-position="990">
+              <caret line="76" column="95" lean-forward="true" selection-start-line="76" selection-start-column="95" selection-end-line="76" selection-end-column="95" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="salesCart.fxml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/shopManagement/shopingCart/salesCart.fxml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="15" column="16" lean-forward="false" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="JavaFX-Scene-Builder">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="salesCart.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/shopManagement/shopingCart/salesCart.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="4" column="9" lean-forward="false" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -109,8 +231,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="FxmlFile" />
         <option value="Class" />
+        <option value="JavaFXApplication" />
+        <option value="FxmlFile" />
       </list>
     </option>
   </component>
@@ -133,12 +256,26 @@
         <option value="$PROJECT_DIR$/src/com/shopManagement/admin/AddUserDialog.fxml" />
         <option value="$PROJECT_DIR$/src/com/shopManagement/Users/User.java" />
         <option value="$PROJECT_DIR$/src/com/shopManagement/LoginScreen/LoginScreenController.java" />
-        <option value="$PROJECT_DIR$/src/com/shopManagement/admin/AdminController.java" />
         <option value="$PROJECT_DIR$/src/com/shopManagement/admin/AddUserDialogController.java" />
         <option value="$PROJECT_DIR$/src/com/shopManagement/LoginScreen/LoginScreenMain.java" />
-        <option value="$PROJECT_DIR$/src/com/shopManagement/admin/WelcomeController.java" />
-        <option value="$PROJECT_DIR$/src/com/shopManagement/admin/newProductDialog.fxml" />
         <option value="$PROJECT_DIR$/src/com/shopManagement/admin/newProductDialogController.java" />
+        <option value="$PROJECT_DIR$/src/com/shopManagement/Products/ProductCategory.java" />
+        <option value="$PROJECT_DIR$/src/com/shopManagement/Products/productCategories/Categories.java" />
+        <option value="$PROJECT_DIR$/src/com/shopManagement/Products/ProductCompany.java" />
+        <option value="$PROJECT_DIR$/src/com/shopManagement/admin/newProductDialog.fxml" />
+        <option value="$PROJECT_DIR$/src/com/shopManagement/admin/NewProductDialogController.java" />
+        <option value="$PROJECT_DIR$/src/com/shopManagement/admin/WelcomeController.java" />
+        <option value="$PROJECT_DIR$/src/com/shopManagement/admin/AdminController.java" />
+        <option value="$PROJECT_DIR$/src/com/shopManagement/admin/welcomePage/WelcomeController.java" />
+        <option value="$PROJECT_DIR$/src/com/shopManagement/admin/newProductDialog/newProductDialog.fxml" />
+        <option value="/RegExp Fragment (NewProductDialogController.java:2297).regexp" />
+        <option value="$PROJECT_DIR$/src/com/shopManagement/shopingCart/salesCart.css" />
+        <option value="$PROJECT_DIR$/src/com/shopManagement/shopingCart/SalesCart.java" />
+        <option value="$PROJECT_DIR$/src/com/shopManagement/shopingCart/salesCart.fxml" />
+        <option value="$PROJECT_DIR$/src/com/shopManagement/Products/Product.java" />
+        <option value="$PROJECT_DIR$/src/com/shopManagement/admin/dashboard/AdminController.java" />
+        <option value="$PROJECT_DIR$/src/com/shopManagement/admin/newProductDialog/NewProductDialogController.java" />
+        <option value="$PROJECT_DIR$/src/com/shopManagement/shopingCart/SalesCartController.java" />
       </list>
     </option>
   </component>
@@ -151,7 +288,7 @@
     <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -164,16 +301,88 @@
       <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Shop management System" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Shop management System" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Shop management System" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Shop management System" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Shop management System" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Shop management System" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="shopManagement" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Shop management System" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Shop management System" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="shopManagement" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Shop management System" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Shop management System" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="shopManagement" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="dashboard" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Shop management System" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Shop management System" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="shopManagement" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="newProductDialog" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Shop management System" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Shop management System" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="shopManagement" type="462c0819:PsiDirectoryNode" />
+              <item name="Products" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Shop management System" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Shop management System" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="shopManagement" type="462c0819:PsiDirectoryNode" />
+              <item name="shopingCart" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="last.edited.regexp" value="090123456" />
+    <property name="last.edited.regexp" value="4" />
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/com/shopManagement/admin/welcomePage" />
+      <recent name="$PROJECT_DIR$/src/com/shopManagement/admin/newProductDialog" />
+      <recent name="$PROJECT_DIR$/src/com/shopManagement/admin/addNewUser" />
+      <recent name="$PROJECT_DIR$/src/com/shopManagement/admin/dashboard" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -326,13 +535,12 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32806325" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3030303" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.342556" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -348,8 +556,9 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32806325" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32806325" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -359,28 +568,26 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/com/shopManagement/admin/AdminController.java</url>
-          <line>102</line>
-          <properties class="com.shopManagement.admin.AdminController" method="loadProductsTable">
+          <url>file://$PROJECT_DIR$/src/com/shopManagement/admin/dashboard/AdminController.java</url>
+          <line>226</line>
+          <properties class="com.shopManagement.admin.dashboard.AdminController" method="loadProductsTable">
             <option name="EMULATED" value="true" />
           </properties>
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/com/shopManagement/admin/addNewUser/AddUserDialogController.java</url>
+          <line>127</line>
+          <properties class="com.shopManagement.admin.addNewUser.AddUserDialogController" method="addUser">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="2" />
+      <option name="time" value="3" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/shopManagement/admin/adminWelcomePageFXML.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="10" lean-forward="false" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/shopManagement/utilityClasses/PasswordNotIdenticalException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
@@ -388,7 +595,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/shopManagement/admin/WelcomeController.java">
+    <entry file="file://$PROJECT_DIR$/src/com/shopManagement/admin/welcomePage/WelcomeController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="828">
           <caret line="63" column="0" lean-forward="false" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
@@ -402,144 +609,66 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/shopManagement/admin/AdminController.java">
+    <entry file="file://$PROJECT_DIR$/src/com/shopManagement/admin/dashboard/AdminController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
           <caret line="16" column="51" lean-forward="false" selection-start-line="16" selection-start-column="51" selection-end-line="16" selection-end-column="51" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#loadProductsTable#0;class#AdminController#0" expanded="false" />
-            <element signature="docComment;method#searchForProduct#0;class#AdminController#0" expanded="false" />
-            <element signature="method#searchForProduct#0;class#AdminController#0" expanded="false" />
-            <element signature="method#AddMedicines#0;class#AdminController#0" expanded="false" />
+            <element signature="docComment;method#AddProduct#0;class#AdminController#0" expanded="false" />
+            <element signature="method#AddProduct#0;class#AdminController#0" expanded="false" />
+            <element signature="docComment;method#returnToHome#0;class#AdminController#0" expanded="false" />
+            <element signature="method#returnToHome#0;class#AdminController#0" expanded="false" />
+            <element signature="method#deleteProduct#0;class#AdminController#0" expanded="false" />
+            <element signature="method#loadProductFromDB#0;class#AdminController#0" expanded="false" />
+            <element signature="e#16031#16032#0" expanded="true" />
+            <element signature="e#16099#16100#0" expanded="true" />
+            <element signature="e#16152#16153#0" expanded="true" />
+            <element signature="e#16194#16195#0" expanded="true" />
+            <element signature="method#loadCart#0;class#AdminController#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/shopManagement/admin/AdminFXML.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/com/shopManagement/admin/dashboard/AdminFXML.fxml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1368">
           <caret line="76" column="32" lean-forward="false" selection-start-line="76" selection-start-column="32" selection-end-line="76" selection-end-column="32" />
           <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/shopManagement/admin/AddUserDialogController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1206">
-          <caret line="92" column="0" lean-forward="false" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
-          <folding>
-            <element signature="method#addUserToDB#0;class#AddUserDialogController#0" expanded="false" />
-            <element signature="method#passwordValidation#0;class#AddUserDialogController#0" expanded="false" />
-            <element signature="method#addUser#0;class#AddUserDialogController#0" expanded="false" />
-            <element signature="method#emailValidation#0;class#AddUserDialogController#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/shopManagement/admin/AddUserDialog.fxml">
       <provider editor-type-id="JavaFX-Scene-Builder">
         <state />
       </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="25" column="57" lean-forward="true" selection-start-line="25" selection-start-column="57" selection-end-line="25" selection-end-column="57" />
-        </state>
-      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/shopManagement/admin/adminWelcomePageFXML.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="10" lean-forward="false" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/shopManagement/utilityClasses/PasswordNotIdenticalException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="39" lean-forward="false" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/shopManagement/admin/WelcomeController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="828">
-          <caret line="63" column="0" lean-forward="false" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/shopManagement/LoginScreen/LoginScreenController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2034">
-          <caret line="130" column="79" lean-forward="false" selection-start-line="130" selection-start-column="79" selection-end-line="130" selection-end-column="79" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/shopManagement/admin/AdminController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="16" column="51" lean-forward="false" selection-start-line="16" selection-start-column="51" selection-end-line="16" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#loadProductsTable#0;class#AdminController#0" expanded="false" />
-            <element signature="docComment;method#searchForProduct#0;class#AdminController#0" expanded="false" />
-            <element signature="method#searchForProduct#0;class#AdminController#0" expanded="false" />
-            <element signature="method#AddMedicines#0;class#AdminController#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/shopManagement/admin/AdminFXML.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1368">
-          <caret line="76" column="32" lean-forward="false" selection-start-line="76" selection-start-column="32" selection-end-line="76" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/shopManagement/admin/AddUserDialogController.java">
+    <entry file="file://$PROJECT_DIR$/src/com/shopManagement/admin/addNewUser/AddUserDialogController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1674">
           <caret line="93" column="45" lean-forward="true" selection-start-line="93" selection-start-column="45" selection-end-line="93" selection-end-column="45" />
-          <folding>
-            <element signature="method#addUserToDB#0;class#AddUserDialogController#0" expanded="false" />
-            <element signature="method#passwordValidation#0;class#AddUserDialogController#0" expanded="false" />
-            <element signature="method#addUser#0;class#AddUserDialogController#0" expanded="false" />
-            <element signature="method#emailValidation#0;class#AddUserDialogController#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/shopManagement/admin/AddUserDialog.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/com/shopManagement/admin/addNewUser/AddUserDialog.fxml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="12" column="40" lean-forward="true" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/shopManagement/admin/adminWelcomePageFXML.fxml">
       <provider editor-type-id="JavaFX-Scene-Builder">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/shopManagement/admin/welcomePage/adminWelcomePageFXML.fxml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
           <caret line="14" column="10" lean-forward="true" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
         </state>
       </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/shopManagement/admin/WelcomeController.java">
+    <entry file="file://$PROJECT_DIR$/src/com/shopManagement/admin/welcomePage/WelcomeController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="828">
           <caret line="63" column="0" lean-forward="false" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
@@ -553,65 +682,66 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/shopManagement/admin/AdminController.java">
+    <entry file="file://$PROJECT_DIR$/src/com/shopManagement/admin/dashboard/AdminController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
           <caret line="16" column="51" lean-forward="false" selection-start-line="16" selection-start-column="51" selection-end-line="16" selection-end-column="51" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#loadProductsTable#0;class#AdminController#0" expanded="false" />
-            <element signature="docComment;method#searchForProduct#0;class#AdminController#0" expanded="false" />
-            <element signature="method#searchForProduct#0;class#AdminController#0" expanded="false" />
-            <element signature="method#AddMedicines#0;class#AdminController#0" expanded="false" />
+            <element signature="docComment;method#AddProduct#0;class#AdminController#0" expanded="false" />
+            <element signature="method#AddProduct#0;class#AdminController#0" expanded="false" />
+            <element signature="docComment;method#returnToHome#0;class#AdminController#0" expanded="false" />
+            <element signature="method#returnToHome#0;class#AdminController#0" expanded="false" />
+            <element signature="method#deleteProduct#0;class#AdminController#0" expanded="false" />
+            <element signature="method#loadProductFromDB#0;class#AdminController#0" expanded="false" />
+            <element signature="e#16031#16032#0" expanded="true" />
+            <element signature="e#16099#16100#0" expanded="true" />
+            <element signature="e#16152#16153#0" expanded="true" />
+            <element signature="e#16194#16195#0" expanded="true" />
+            <element signature="method#loadCart#0;class#AdminController#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/shopManagement/admin/AdminFXML.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/com/shopManagement/admin/dashboard/AdminFXML.fxml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1368">
           <caret line="76" column="32" lean-forward="false" selection-start-line="76" selection-start-column="32" selection-end-line="76" selection-end-column="32" />
           <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/shopManagement/admin/AddUserDialogController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1440">
-          <caret line="80" column="0" lean-forward="false" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
-          <folding>
-            <element signature="method#addUserToDB#0;class#AddUserDialogController#0" expanded="false" />
-            <element signature="method#passwordValidation#0;class#AddUserDialogController#0" expanded="false" />
-            <element signature="method#addUser#0;class#AddUserDialogController#0" expanded="false" />
-            <element signature="method#emailValidation#0;class#AddUserDialogController#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/shopManagement/admin/AddUserDialog.fxml">
       <provider editor-type-id="JavaFX-Scene-Builder">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/shopManagement/admin/addNewUser/AddUserDialogController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1440">
+          <caret line="80" column="0" lean-forward="false" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/shopManagement/admin/addNewUser/AddUserDialog.fxml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
           <caret line="3" column="21" lean-forward="false" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/shopManagement/admin/adminWelcomePageFXML.fxml">
       <provider editor-type-id="JavaFX-Scene-Builder">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/shopManagement/admin/welcomePage/adminWelcomePageFXML.fxml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="38" lean-forward="true" selection-start-line="0" selection-start-column="38" selection-end-line="0" selection-end-column="38" />
         </state>
       </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/shopManagement/admin/WelcomeController.java">
+    <entry file="file://$PROJECT_DIR$/src/com/shopManagement/admin/welcomePage/WelcomeController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="26" column="9" lean-forward="true" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
@@ -625,37 +755,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/shopManagement/admin/AdminController.java">
+    <entry file="file://$PROJECT_DIR$/src/com/shopManagement/admin/dashboard/AdminController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
           <caret line="16" column="51" lean-forward="false" selection-start-line="16" selection-start-column="51" selection-end-line="16" selection-end-column="51" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#loadProductsTable#0;class#AdminController#0" expanded="false" />
-            <element signature="docComment;method#searchForProduct#0;class#AdminController#0" expanded="false" />
-            <element signature="method#searchForProduct#0;class#AdminController#0" expanded="false" />
-            <element signature="method#AddMedicines#0;class#AdminController#0" expanded="false" />
+            <element signature="docComment;method#AddProduct#0;class#AdminController#0" expanded="false" />
+            <element signature="method#AddProduct#0;class#AdminController#0" expanded="false" />
+            <element signature="docComment;method#returnToHome#0;class#AdminController#0" expanded="false" />
+            <element signature="method#returnToHome#0;class#AdminController#0" expanded="false" />
+            <element signature="method#deleteProduct#0;class#AdminController#0" expanded="false" />
+            <element signature="method#loadProductFromDB#0;class#AdminController#0" expanded="false" />
+            <element signature="e#16031#16032#0" expanded="true" />
+            <element signature="e#16099#16100#0" expanded="true" />
+            <element signature="e#16152#16153#0" expanded="true" />
+            <element signature="e#16194#16195#0" expanded="true" />
+            <element signature="method#loadCart#0;class#AdminController#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/shopManagement/admin/AddUserDialogController.java">
+    <entry file="file://$PROJECT_DIR$/src/com/shopManagement/admin/addNewUser/AddUserDialogController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
           <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding>
-            <element signature="method#addUserToDB#0;class#AddUserDialogController#0" expanded="false" />
-            <element signature="method#passwordValidation#0;class#AddUserDialogController#0" expanded="false" />
-            <element signature="method#addUser#0;class#AddUserDialogController#0" expanded="false" />
-            <element signature="method#emailValidation#0;class#AddUserDialogController#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/shopManagement/admin/Admin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -673,13 +797,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/shopManagement/newProductDialog/addProduct.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/shopManagement/welcome/welcomePageMain.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
@@ -688,16 +805,16 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/shopManagement/newProductDialog/addProduct.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
           <caret line="13" column="13" lean-forward="true" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
         </state>
       </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/shopManagement/admin/table-viewCSS.css">
+    <entry file="file://$PROJECT_DIR$/src/com/shopManagement/admin/dashboard/table-viewCSS.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2286">
           <caret line="127" column="1" lean-forward="false" selection-start-line="127" selection-start-column="1" selection-end-line="127" selection-end-column="1" />
@@ -725,61 +842,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/shopManagement/admin/AddUserDialogController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="41" column="115" lean-forward="true" selection-start-line="41" selection-start-column="115" selection-end-line="41" selection-end-column="115" />
-          <folding>
-            <element signature="method#addUserToDB#0;class#AddUserDialogController#0" expanded="false" />
-            <element signature="method#passwordValidation#0;class#AddUserDialogController#0" expanded="false" />
-            <element signature="method#addUser#0;class#AddUserDialogController#0" expanded="false" />
-            <element signature="method#emailValidation#0;class#AddUserDialogController#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/shopManagement/admin/adminWelcomePageFXML.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/shopManagement/admin/AddUserDialog.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="49" column="60" lean-forward="false" selection-start-line="49" selection-start-column="60" selection-end-line="49" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/shopManagement/admin/WelcomeController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="122" column="30" lean-forward="true" selection-start-line="122" selection-start-column="30" selection-end-line="122" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/shopManagement/LoginScreen/LoginScreen.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="10" column="33" lean-forward="true" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/shopManagement/LoginScreen/LoginScreenController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="433">
-          <caret line="140" column="30" lean-forward="true" selection-start-line="140" selection-start-column="30" selection-end-line="140" selection-end-column="30" />
-        </state>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/shopManagement/LoginScreen/LoginScreenMain.java">
@@ -789,64 +859,178 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar:///usr/local/java/jdk1.8.0_161/javafx-src.zip!/javafx/scene/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="689" column="16" lean-forward="false" selection-start-line="689" selection-start-column="16" selection-end-line="689" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/shopManagement/Products/ProductCategory.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/shopManagement/Products/productCategories/Categories.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/shopManagement/Products/ProductCompany.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="846">
+          <caret line="47" column="42" lean-forward="true" selection-start-line="47" selection-start-column="42" selection-end-line="47" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/shopManagement/newProductDialog/addProduct.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="11" column="27" lean-forward="false" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/shopManagement/Users/User.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="5" column="4" lean-forward="false" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/shopManagement/admin/Admin.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/shopManagement/admin/addNewUser/AddUserDialog.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="882">
+          <caret line="49" column="60" lean-forward="false" selection-start-line="49" selection-start-column="60" selection-end-line="49" selection-end-column="60" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/shopManagement/admin/welcomePage/adminWelcomePageFXML.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="66" lean-forward="false" selection-start-line="9" selection-start-column="66" selection-end-line="9" selection-end-column="66" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+    </entry>
+    <entry file="jar:///usr/local/java/jdk1.8.0_161/javafx-src.zip!/javafx/event/EventHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="44" column="9" lean-forward="false" selection-start-line="44" selection-start-column="9" selection-end-line="44" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/shopManagement/admin/newProductDialog/newProductDialog.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="22" column="94" lean-forward="false" selection-start-line="22" selection-start-column="94" selection-end-line="22" selection-end-column="94" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/shopManagement/LoginScreen/LoginScreenController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="88" column="0" lean-forward="false" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/local/java/jdk1.8.0_161/javafx-src.zip!/javafx/fxml/FXMLLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="2557" column="28" lean-forward="true" selection-start-line="2557" selection-start-column="28" selection-end-line="2557" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/shopManagement/admin/welcomePage/WelcomeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1872">
+          <caret line="122" column="30" lean-forward="false" selection-start-line="122" selection-start-column="30" selection-end-line="122" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/shopManagement/shopingCart/salesCart.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="9" lean-forward="false" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/shopManagement/admin/AdminController.java">
+    <entry file="file://$PROJECT_DIR$/src/com/shopManagement/admin/dashboard/AdminFXML.fxml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2286">
-          <caret line="233" column="20" lean-forward="false" selection-start-line="233" selection-start-column="20" selection-end-line="233" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#loadProductsTable#0;class#AdminController#0" expanded="false" />
-            <element signature="docComment;method#searchForProduct#0;class#AdminController#0" expanded="false" />
-            <element signature="method#searchForProduct#0;class#AdminController#0" expanded="false" />
-            <element signature="method#AddMedicines#0;class#AdminController#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="270">
+          <caret line="15" column="35" lean-forward="false" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+          <folding />
         </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/shopManagement/Products/Product.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-323">
-          <caret line="8" column="39" lean-forward="false" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
-          <folding />
+        <state relative-caret-position="1098">
+          <caret line="98" column="32" lean-forward="false" selection-start-line="98" selection-start-column="32" selection-end-line="98" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/shopManagement/admin/AdminFXML.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/com/shopManagement/admin/addNewUser/AddUserDialogController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="634">
-          <caret line="60" column="25" lean-forward="false" selection-start-line="60" selection-start-column="25" selection-end-line="60" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/shopManagement/admin/newProductDialogController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="25" column="30" lean-forward="true" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
+        <state relative-caret-position="613">
+          <caret line="48" column="44" lean-forward="false" selection-start-line="48" selection-start-column="44" selection-end-line="48" selection-end-column="44" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="method#addUserToDB#0;class#AddUserDialogController#0" expanded="false" />
+            <element signature="method#passwordValidation#0;class#AddUserDialogController#0" expanded="false" />
+            <element signature="method#addUser#0;class#AddUserDialogController#0" expanded="false" />
+            <element signature="method#emailValidation#0;class#AddUserDialogController#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/shopManagement/admin/newProductDialog.fxml">
+    <entry file="file://$PROJECT_DIR$/src/com/shopManagement/shopingCart/salesCart.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="16" lean-forward="false" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
       <provider editor-type-id="JavaFX-Scene-Builder">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/shopManagement/shopingCart/SalesCartController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        <state relative-caret-position="990">
+          <caret line="76" column="95" lean-forward="true" selection-start-line="76" selection-start-column="95" selection-end-line="76" selection-end-column="95" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/shopManagement/admin/dashboard/AdminController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="667">
+          <caret line="292" column="110" lean-forward="false" selection-start-line="292" selection-start-column="110" selection-end-line="292" selection-end-column="110" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="docComment;method#AddProduct#0;class#AdminController#0" expanded="false" />
+            <element signature="method#AddProduct#0;class#AdminController#0" expanded="false" />
+            <element signature="docComment;method#returnToHome#0;class#AdminController#0" expanded="false" />
+            <element signature="method#returnToHome#0;class#AdminController#0" expanded="false" />
+            <element signature="method#deleteProduct#0;class#AdminController#0" expanded="false" />
+            <element signature="method#loadProductFromDB#0;class#AdminController#0" expanded="false" />
+            <element signature="e#16031#16032#0" expanded="true" />
+            <element signature="e#16099#16100#0" expanded="true" />
+            <element signature="e#16152#16153#0" expanded="true" />
+            <element signature="e#16194#16195#0" expanded="true" />
+            <element signature="method#loadCart#0;class#AdminController#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/shopManagement/admin/newProductDialog/NewProductDialogController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1260">
+          <caret line="175" column="38" lean-forward="false" selection-start-line="175" selection-start-column="38" selection-end-line="175" selection-end-column="38" />
           <folding />
         </state>
       </provider>
@@ -908,7 +1092,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

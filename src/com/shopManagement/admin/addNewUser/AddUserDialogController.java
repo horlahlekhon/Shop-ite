@@ -1,4 +1,4 @@
-package com.shopManagement.admin;
+package com.shopManagement.admin.addNewUser;
 
 /**
  * @Author Olalekan Adebari nee Sisyphus

@@ -1,0 +1,9 @@
+.window{
+    -fx-background-color: linear-gradient(#6c88a3,#f2f2f2);
+}
+.headerPane{
+    -fx-background-color:rgb(51, 51, 87);
+}
+.labelColor{
+    color:white;
+}

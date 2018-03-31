@@ -16,7 +16,7 @@
 <?import javafx.scene.layout.BorderPane?>
 <?import javafx.scene.layout.Pane?>
 
-<javafx.scene.layout.BorderPane prefHeight="794.0" prefWidth="1000.0" stylesheets="@addUserDialog.css" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.shopManagement.admin.AddUserDialogController">
+<javafx.scene.layout.BorderPane prefHeight="794.0" prefWidth="1000.0" stylesheets="@addUserDialog.css" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.shopManagement.admin.addNewUser.AddUserDialogController">
    <top>
       <TabPane prefHeight="794.0" prefWidth="1000.0" tabClosingPolicy="UNAVAILABLE" BorderPane.alignment="CENTER">
         <tabs>
