@@ -18,6 +18,7 @@
 
 <!--<?import javafx.scene.text.Font?>-->
 
+<?import javafx.scene.control.SeparatorMenuItem?>
 <BorderPane prefHeight="846.0" prefWidth="1465.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.shopManagement.admin.dashboard.AdminController">
     <center>
         <Pane prefHeight="538.0" prefWidth="1036.0">
@@ -43,10 +44,11 @@
                <contextMenu>
                   <ContextMenu fx:id="contextMenu">
                     <items>
+                        <MenuItem fx:id="addToCart" mnemonicParsing="false" text="Add to Cart" />
+                        <SeparatorMenuItem/>
                       <MenuItem fx:id="deleteProduct" mnemonicParsing="false" text="Delete Product" />
                         <MenuItem fx:id="editProduct" mnemonicParsing="false" text="Edit product" />
                         <MenuItem fx:id="productDetails" mnemonicParsing="false" text="Product Details" />
-                        <MenuItem fx:id="addToCart" mnemonicParsing="false" text="Add to Cart" />
                     </items>
                   </ContextMenu>
                </contextMenu>

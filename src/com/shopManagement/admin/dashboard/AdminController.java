@@ -151,25 +151,11 @@ public class AdminController implements Initializable {
         MenuItem delete = new MenuItem();
         contextMenu.getItems().addAll(delete);
         deleteProduct.setOnAction(event -> {
-            medicineTable.setRowFactory(
-                    new Callback<TableView<Product>,TableRow<Product>>() {
-
-                        @Override
-                        public TableRow<Product> call(TableView<Product> param) {
-                            System.out.println("had to stop here !");
-                            TableRow<Product> row =new TableRow<>();
-                            Product product = (Product) medicineTable.getSelectionModel().getSelectedItem();
-                            try {
-                                deleteProduct();
-                            } catch (SQLException e) {
-                                e.printStackTrace();
-                            }
-                            medicineTable.refresh();
-
-                            return  row;
-                        }
-                    }
-            );
+            try {
+                deleteProduct();
+            }catch(SQLException e){
+                e.printStackTrace();
+            }
 
         });
         addToCart.setOnAction(event -> {
@@ -177,47 +163,6 @@ public class AdminController implements Initializable {
           //  getProductList(productSelectedList);
 
         });
-
-
-
-
-       /* medicineTable.setOnContextMenuRequested(e -> {
-            contextMenu.show(medicineTable, e.getScreenX(),e.getScreenY());
-        });*/
-
-
-
-       /*medicineTable.setRowFactory(
-               new Callback<TableView<Product>,TableRow<Product>>() {
-
-                   @Override
-                   public TableRow<Product> call(TableView<Product> param) {
-                       final TableRow<Product> row = new TableRow<>(); // create a tablerow to hold the new row
-                       ContextMenu menu = new ContextMenu();
-                       MenuItem delete = new MenuItem("Delete");
-                       delete.setOnAction(e -> new EventHandler<ActionEvent>(){
-                           @Override
-                           public void handle(ActionEvent event) {
-                               Product product = (Product) medicineTable.getSelectionModel().getSelectedItem();
-                               try {
-                                   deleteProduct(product);
-                               } catch (SQLException e) {
-                                   e.printStackTrace();
-                               }
-                               medicineTable.refresh();
-                           }
-
-
-                       });
-                       menu.getItems().addAll(delete);
-                       menu.show(medicineTable,);
-                       ///make the contextMenu show only on non-null items
-                       row.contextMenuProperty().bind(Bindings.when(Bindings.isNotNull(row.itemProperty())).then(contextMenu).otherwise((ContextMenu)null));
-                       return row;
-                   }
-
-               });*/
-
        this.viewCartButton.setOnAction(e -> loadCart());
 
 }
@@ -470,10 +415,6 @@ public class AdminController implements Initializable {
         }
 
     }
-
-
-
-
 
     /////////////////////Cart\\\\\\\\\\\\\\\\\\\\
     }

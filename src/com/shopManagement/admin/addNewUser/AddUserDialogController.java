@@ -5,9 +5,15 @@ package com.shopManagement.admin.addNewUser;
  **/
 
 import com.jfoenix.controls.*;
+import com.jfoenix.validation.RequiredFieldValidator;
 import com.shopManagement.DatabaseConnection.DatabaseConnection;
 import com.shopManagement.LoginScreen.UsersOptions;
 import com.shopManagement.Users.User;
+import de.jensd.fx.glyphs.GlyphsBuilder;
+import de.jensd.fx.glyphs.fontawesome.FontAwesomeIcon;
+import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView;
+import javafx.beans.value.ChangeListener;
+import javafx.beans.value.ObservableValue;
 import javafx.collections.FXCollections;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
@@ -21,6 +27,9 @@ import java.util.ResourceBundle;
 
 
 public class AddUserDialogController implements Initializable{
+
+    private static final String EM1 = "1em";
+    private static final String ERROR = "error";
 
 
     //new user components : this group of components represents the add new User scene or dialogBox as well as variables that concerns adding users
@@ -55,6 +64,38 @@ public class AddUserDialogController implements Initializable{
         this.usersOptionsComboBox.setItems(FXCollections.observableArrayList(UsersOptions.values()));
 
         addUserButton.setOnAction(e -> addUser());
+
+        /*
+        * the Jfoenix RquiredValidator class allow to create a simple warning when creeaing forms to warn users that the input of the textField is required
+        * and cannot be skipped.... here we implemented it with another library "de.jens fontAwesome library" which allow us to slect from arrays of
+         * icons to use as warning or other things as it fit. the glyphBuilder and its implementations are classes and implementations of the fontAwesome library*/
+        RequiredFieldValidator validator = new RequiredFieldValidator();
+        validator.setMessage("Password can't be empty");
+        validator.setIcon(GlyphsBuilder.create(FontAwesomeIconView.class)
+                .glyph(FontAwesomeIcon.WARNING)
+                .size(EM1)
+                .styleClass(ERROR)
+                .build());
+        this.newUserPassword.getValidators().add(validator); // after setting up the validator class we can just add it to the required field, using the fields method
+                                                            //getValidators().add();
+        this.retypePassword.getValidators().add(validator);
+        this.retypePassword.focusedProperty().addListener(new ChangeListener<Boolean>() {
+            @Override
+            public void changed(ObservableValue<? extends Boolean> observable, Boolean oldValue, Boolean newValue) {
+                if(!newValue){
+                    retypePassword.validate();
+                }
+            }
+        });
+        this.newUserPassword.focusedProperty().addListener(new ChangeListener<Boolean>() {
+            @Override
+            public void changed(ObservableValue<? extends Boolean> observable, Boolean oldValue, Boolean newValue) {
+                if(!newValue){
+                    newUserPassword.validate();
+                }
+            }
+        });
+
 
     }
     public  void addUserToDB(User newUser) {

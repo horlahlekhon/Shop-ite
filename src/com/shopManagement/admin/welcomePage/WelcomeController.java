@@ -101,13 +101,14 @@ public class WelcomeController extends AnchorPane implements Initializable {
         try {
             Stage addUserStage = new Stage();
             FXMLLoader loader = new FXMLLoader();
-            BorderPane root = loader.load(getClass().getResource("../addNewUser/AddUserDialog.fxml"));
+            AnchorPane root = loader.load(getClass().getResource("../addNewUser/AddUserDialog.fxml"));
             AddUserDialogController dialogController = loader.getController();
 
             addUserStage.initModality(APPLICATION_MODAL);
             Scene scene = new Scene(root);
             addUserStage.setScene(scene);
             addUserStage.setTitle("Add user Dialog");
+
             addUserStage.showAndWait();
         } catch (IOException e) {
             e.printStackTrace();

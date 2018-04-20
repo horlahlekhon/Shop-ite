@@ -3,28 +3,27 @@ package com.shopManagement.shopingCart;
  * @Author Olalekan Adebari ( nee Sisyphus )
  **/
 
+import com.jfoenix.controls.JFXMasonryPane;
 import com.shopManagement.Products.Product;
 import com.shopManagement.admin.dashboard.AdminController;
 import javafx.application.Application;
+import javafx.beans.value.ChangeListener;
+import javafx.beans.value.ObservableValue;
+import javafx.event.ActionEvent;
+import javafx.event.EventHandler;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.geometry.Insets;
 import javafx.geometry.Pos;
-import javafx.scene.control.Label;
-import javafx.scene.control.TableRow;
-import javafx.scene.control.TableView;
-import javafx.scene.control.TextField;
-import javafx.scene.layout.GridPane;
-import javafx.scene.layout.HBox;
-import javafx.scene.layout.Pane;
-import javafx.scene.layout.VBox;
+import javafx.scene.control.*;
+import javafx.scene.input.ContextMenuEvent;
+import javafx.scene.input.MouseEvent;
+import javafx.scene.layout.*;
 import javafx.scene.text.Text;
 import javafx.stage.Stage;
 
 import java.net.URL;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.ResourceBundle;
+import java.util.*;
 
 public class SalesCartController implements Initializable {
 
@@ -32,11 +31,24 @@ public class SalesCartController implements Initializable {
     private AdminController dashBoardController;
 
     @FXML
-    private VBox productsPane;  // this is the GridPane ; the main window that hoises the hbox that houses the products
+    private JFXMasonryPane productsMasonryPane;  // this is the  main window that hoises the hbox that houses the products
 
     @FXML
     private Label totalMoney;
 
+     private Label productName;
+
+     private Label productID;
+
+     private TextField quantity;
+
+    private  Label productPrice;
+
+    private static ContextMenu contextMenu;
+
+
+    int value;
+    Map<TextField,Integer> priceQuantityMapping = new HashMap<TextField, Integer>();
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
@@ -52,52 +64,142 @@ public class SalesCartController implements Initializable {
     @FXML
     public void addProductToCart(List<Product> productsSelected) {
 
-        int columIndex = 0; //this value will always be zero, since we are not moving forward but downward
-        int rowIndex = 0;  // this will increment, and make the nrxt values jump into the next row as the current one is added.
+        Random rand = new Random();
         for (Product selectedProduct : productsSelected) {
-                HBox productList = new HBox();
-                productList.setSpacing(70);
+            AnchorPane productList = new AnchorPane();
+            productList.setPrefSize(126,137);
 
-                productList.setPrefSize(737,8);
+            productList.setStyle("-fx-background-color:rgb("+rand.nextInt(255)+","+rand.nextInt(255)+","+rand.nextInt(255)+");");
+            int latestValue = 0;
 
-                Label productName = new Label(selectedProduct.getProductName());
-               productName.setPrefSize(120,10);
-               productList.setMargin(productName, new Insets(13,70,10,10));
+            //productList.setPrefSize(737, 8);
 
-                productList.getChildren().add(productName);
+            productID =  new Label(selectedProduct.getProductID());
+            productID.setPrefSize(124,32);
+            productID.setAlignment(Pos.CENTER);
+            productList.setTopAnchor(productID, (double) 2);
+            productList.setLeftAnchor(productID,(double)40);
+            productList.getChildren().add(productID);
 
-                TextField quantity = new TextField(String.valueOf(selectedProduct.getQuantity()));
-                //quantity.setPadding(new Insets(10,20,20,50));
-               // quantity.setAlignment(Pos.CENTER);
-                quantity.setPrefSize(50,10);
-                productList.setMargin(quantity,new Insets(13,90,10,70));
-                productList.getChildren().add(quantity);
-               // productList.setma
+            productName = new Label(selectedProduct.getProductName());
+            productName.setPrefSize(124, 32);
+            productList.setTopAnchor(productName,(double)25);
+            productName.setAlignment(Pos.CENTER);
+            productList.getChildren().add(productName);
+            //productList.setMargin(productName, new Insets(13, 70, 10, 10));
 
-                Label productPrice = new Label(String.valueOf(selectedProduct.getUnitPrice()));
-                productPrice.setPadding(new Insets(10,0,20,10));
-              //   productPrice.setAlignment(Pos.CENTER_RIGHT);
-                 productList.setMargin(productPrice,new Insets(10,10,10,85));
-                productList.getChildren().add(productPrice);
-                //productList.setAlignment(Pos.BASELINE_RIGHT);
 
-                /*productsPane.setRowIndex(productList, rowIndex);
-                productsPane.setColumnIndex(productList, columIndex);*/
+            productPrice = new Label(String.valueOf(selectedProduct.getUnitPrice()));
+            productPrice.setPrefSize(124,32);
+            productList.setTopAnchor(productPrice, (double) 50);
+            productPrice.setAlignment(Pos.CENTER);
+        //    productPrice.setPadding(new Insets(10, 0, 20, 10));
+           // productList.setMargin(productPrice, new Insets(10, 10, 10, 85)); //set appropriate margin to position the nodes in relation to other nodes.
+            productList.getChildren().add(productPrice);
 
-              productsPane.getChildren().add(productList);
+            quantity = new TextField();
+            quantity.setPrefSize(150, 26);
+           // productList.setMargin(quantity, new Insets(13, 90, 10, 70));
+            productList.setTopAnchor(quantity,(double) 100);
+            productList.getChildren().add(quantity);
 
-                rowIndex++;
+
+
+
+
+            productsMasonryPane.getChildren().add(productList);
+
+            contextMenu = new ContextMenu();
+            MenuItem  delete = new MenuItem("Remove from cart");
+             delete.setOnAction(e -> deleteProduct(productsSelected,selectedProduct));
+
+
+
+
+            MenuItem productDetails = new MenuItem("Details");
+           // productDetails.setOnAction();
+            contextMenu.getItems().addAll(delete, productDetails);
+            productList.setOnContextMenuRequested(event -> contextMenu.show(productList, event.getScreenX(), event.getScreenY()));
+
+
+            priceQuantityMapping.put(quantity, selectedProduct.getUnitPrice());
         }
-        totalMoney.setText(String.valueOf(computeTotalMoney(productsSelected)));
+        for (Map.Entry<TextField, Integer> entry : priceQuantityMapping.entrySet()) {
+            entry.getKey().setText(String.valueOf(0));
+
+            /*
+            productQuantityMapping
+            * here i map the quantity textField with the price so that i can calculate prices and quantity while adding them horizontally in the  loop
+            * to keep it in sync with the label that shows total shopping money
+            * i also try to monitor changes in the valuues enetred into the textField by adding a changeListener class to monitor the change in any of the text Fiedl
+            * then i will recompute the values from scratch by re-calling the computeotalMoney method()*/
+            entry.getKey().textProperty().addListener(new ChangeListener<String>() {
+                @Override
+                public void changed(ObservableValue<? extends String> observable, String oldValue, String newValue) {
+                    //in case the user delete the value inside the text field and leave it empty; this will make the computeTotalMoney() to return numberFormatException
+                    //so i handle it by inserting 0 whenever the value is empty string
+                        totalMoney.setText(String.valueOf("$" + computeTotalMoney(priceQuantityMapping))); // this should probably be a double; also it will need to add the comma at the coreesponding
+                        //intervals, an algorithmic method will do to populate the label TODO
+
+                    }
+            });
+        }
+    }
+    /*@param Map that is genersated by mapping the price and quantity togerher to determine price
+    @return Int price
+    *
+    * */
+    private int computeTotalMoney(Map<TextField, Integer> priceAndQuantityMapping) {
+
+        int singleProduct;
+        int totalMoney = 0;
+        for (Map.Entry<TextField, Integer> entry : priceQuantityMapping.entrySet()) {
+            if (entry.getKey().getText().equalsIgnoreCase("")) {
+                singleProduct = 0;
+                totalMoney += singleProduct;
+            }else{
+                singleProduct = Integer.parseInt(entry.getKey().getText()) * entry.getValue();
+                totalMoney += singleProduct;
+            }
+        }
+        return totalMoney;
+    }
+
+    /*
+    * this method will attempt to formAT THE TOtal money of the sales , by adding neccessary comma at intervals where prices are more than a thoudsnd*/
+    private String labelPriceShowingFormat(Double totalMoney){   //TODO finish this freaking method! you lazy cretin
+
+        String money = String.valueOf(totalMoney);
+        StringBuilder stringB = new StringBuilder(money);
+        if (totalMoney > Double.MIN_VALUE){
+            if ((totalMoney >= 1000) && (totalMoney < 10000) ){
+            stringB.insert(0,',');
+
+            }
+        }
+        return money;
+    }
+
+   /* public Map<TextField,Integer> deleteProductFromCart(Product toBeDeleted){
+
+
+
+    }*/
+
+
+
+   private List<Product> deleteProduct( List<Product> selectedProducts, Product productToBeDeleted ){
+
+       for (Product p: selectedProducts) {
+           if (p.getProductName().equals(productToBeDeleted.getProductName())){
+               selectedProducts.remove(p);
+
+           }
+
+       }
+       return selectedProducts;
+
+   }
     }
 
 
-    public int computeTotalMoney(List<Product> productList){
-            int totalProductMoney = 0;
-        for (Product selectedProduct:productList) {
-            totalProductMoney += selectedProduct.getUnitPrice();
-        }
-
-        return totalProductMoney;
-    }
-}
